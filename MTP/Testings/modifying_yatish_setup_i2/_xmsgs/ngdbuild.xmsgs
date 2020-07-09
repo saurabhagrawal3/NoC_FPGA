@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">Router_3/aurora_module_i_router_2/aurora_lane_0_i/lane_init_sm_i/lane_up_flop_i</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">Router0_1_2/aurora_module_i_router_2/aurora_lane_0_i/lane_init_sm_i/lane_up_flop_i</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+

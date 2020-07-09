@@ -1,0 +1,28 @@
+Command line:
+   mkNetworkSimple_0_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  48278
+
+Mon Sep 29 20:31:50 2014
+
+
+ Elaboration Time: 0.07 sec
+
+ Current Memory Usage: 209.027 Meg
+
+ Total Signals          : 5049
+ Total Nets             : 11521
+ Total Signal Drivers   : 3142
+ Total Blocks           : 409
+ Total Primitive Blocks : 366
+ Total Processes        : 3396
+ Total Traceable Variables  : 787
+ Total Scalar Nets and Variables : 37309
+
+ Total Simulation Time: 0.17 sec
+
+ Current Memory Usage: 284.529 Meg
+
+Mon Sep 29 20:32:21 2014
+

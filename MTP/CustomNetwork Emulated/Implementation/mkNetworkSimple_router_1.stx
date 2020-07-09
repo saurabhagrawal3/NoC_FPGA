@@ -1,0 +1,61 @@
+Release 14.1 - xst P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /root/Desktop/MTP/CustomNetwork/Implementation/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to /root/Desktop/MTP/CustomNetwork/Implementation/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../3R_Custom/build/module_gen_grant_carry.v" in library work
+Compiling verilog file "../3R_Custom/build/RegFile_1port.v" in library work
+Module <module_gen_grant_carry> compiled
+Compiling verilog file "../3R_Custom/build/mkRouterOutputArbitersRoundRobin.v" in library work
+Module <RegFile_1port> compiled
+Compiling verilog file "../3R_Custom/build/mkRouterInputArbitersRoundRobin.v" in library work
+Module <mkRouterOutputArbitersRoundRobin> compiled
+Compiling verilog file "../3R_Custom/build/module_outport_encoder.v" in library work
+Module <mkRouterInputArbitersRoundRobin> compiled
+Compiling verilog file "../3R_Custom/build/mkSepRouterAllocator.v" in library work
+Module <module_outport_encoder> compiled
+Compiling verilog file "../3R_Custom/build/mkOutPortFIFO.v" in library work
+Module <mkSepRouterAllocator> compiled
+Compiling verilog file "../3R_Custom/build/mkInputQueue.v" in library work
+Module <mkOutPortFIFO> compiled
+Compiling verilog file "../3R_Custom/build/RegFileLoadSyn.v" in library work
+Module <mkInputQueue> compiled
+Compiling verilog file "../3R_Custom/build/mkIQRouterCoreSimple.v" in library work
+Module <RegFileLoadSyn> compiled
+Compiling verilog file "../mkNetworkSimple_router_1.v" in library work
+Module <mkIQRouterCoreSimple> compiled
+Module <mkNetworkSimple_router_1> compiled
+No errors in compilation
+Analysis of file <"mkNetworkSimple_router_1.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> 
+
+
+Total memory usage is 474236 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork/Implementation/Custom_TB.xst" -ofn "/root/Desktop/MTP/CustomNetwork/Implementation/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork/Implementation/Custom_TB.xst" -ofn "/root/Desktop/MTP/CustomNetwork/Implementation/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.xst" -ofn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.xst" -ofn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.xst" -ofn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.xst" -ofn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.xst" -ofn "/root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB.syr" 

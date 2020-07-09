@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="Xst" num="862" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">15</arg>: Unsupported parameter declaration.
+</msg>
+
+<msg type="error" file="Xst" num="862" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">16</arg>: Unsupported parameter declaration.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">158</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">165</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="error" file="Xst" num="2634" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">172</arg>: For loop stop condition should depend on loop variable or be static.
+</msg>
+
+<msg type="error" file="Xst" num="2634" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">177</arg>: For loop stop condition should depend on loop variable or be static.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">142</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">150</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="2325" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">387</arg>: Unsupported escape sequence : %<arg fmt="%c" index="3">3</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2326" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">387</arg>: Invalid escape sequence : %<arg fmt="%c" index="3">x</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2325" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">387</arg>: Unsupported escape sequence : %<arg fmt="%c" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2325" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">387</arg>: Unsupported escape sequence : %<arg fmt="%c" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2325" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">387</arg>: Unsupported escape sequence : %<arg fmt="%c" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">387</arg>: Parameter <arg fmt="%d" index="3">6</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+<msg type="error" file="Xst" num="850" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">388</arg>: Unsupported <arg fmt="%s" index="3">Wait Statement</arg>. 
+</msg>
+
+<msg type="warning" file="Xst" num="2325" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">390</arg>: Unsupported escape sequence : %<arg fmt="%c" index="3">3</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2326" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">390</arg>: Invalid escape sequence : %<arg fmt="%c" index="3">x</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2325" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">390</arg>: Unsupported escape sequence : %<arg fmt="%c" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2323" delta="new" >&quot;<arg fmt="%s" index="1">../Custom_TB.v</arg>&quot; line <arg fmt="%d" index="2">390</arg>: Parameter <arg fmt="%d" index="3">4</arg> is not constant in call of system task <arg fmt="%s" index="4">$display</arg>.
+</msg>
+
+</messages>
+

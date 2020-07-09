@@ -1,0 +1,171 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.14)  1 JUL 2015 16:36
+entering extended mode
+**G:/Academic(123076007)/CoursesAndMTP/MTP/MTP*Report/Stage-II/Latex/latex/Auth
+orityLetter.tex
+
+("G:/Academic(123076007)/CoursesAndMTP/MTP/MTP Report/Stage-II/Latex/latex/Auth
+orityLetter.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\letter.cls"
+Document Class: letter 1999/04/29 v1.2z Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\longindentation=\dimen102
+\indentedwidth=\dimen103
+\labelcount=\count79
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count80
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("G:\Academic(123076007)\CoursesAndMTP\MTP\MTP Report\Stage-II\Latex\latex\Auth
+orityLetter.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+(C:\Users\Saurabh\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count81
+\scratchdimen=\dimen106
+\scratchbox=\box26
+\nofMPsegments=\count82
+\nofMParguments=\count83
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count84
+\MPscratchDim=\dimen107
+\MPnumerator=\count85
+\makeMPintoPDFobject=\count86
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <24.88> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 8.
+
+Overfull \hbox (11.77748pt too wide) in paragraph at lines 8--10
+[]$[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+<./figs/signature.png, id=1, 603.0028pt x 253.69781pt>
+File: ./figs/signature.png Graphic file (type png)
+
+<use ./figs/signature.png>
+Package pdftex.def Info: ./figs/signature.png used on input line 14.
+(pdftex.def)             Requested size: 150.75032pt x 63.42429pt.
+ <./figs/ID.png, id=3, 3084.52374pt x 1967.35pt>
+File: ./figs/ID.png Graphic file (type png)
+
+<use ./figs/ID.png>
+Package pdftex.def Info: ./figs/ID.png used on input line 20.
+(pdftex.def)             Requested size: 246.76694pt x 157.39122pt.
+ [1
+
+{C:/Users/Saurabh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <G:/Academ
+ic(123076007)/CoursesAndMTP/MTP/MTP Report/Stage-II/Latex/latex/figs/signature.
+png> <G:/Academic(123076007)/CoursesAndMTP/MTP/MTP Report/Stage-II/Latex/latex/
+figs/ID.png>]
+("G:\Academic(123076007)\CoursesAndMTP\MTP\MTP Report\Stage-II\Latex\latex\Auth
+orityLetter.aux") ) 
+Here is how much of TeX's memory you used:
+ 1064 strings out of 493921
+ 14555 string characters out of 3147276
+ 62870 words of memory out of 3000000
+ 4404 multiletter control sequences out of 15000+200000
+ 7294 words of font info for 26 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,5n,19p,619b,125s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pf
+b>
+Output written on AuthorityLetter.pdf (1 page, 12150124 bytes).
+PDF statistics:
+ 19 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

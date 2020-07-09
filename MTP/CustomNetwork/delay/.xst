@@ -1,0 +1,5 @@
+set -tmpdir "/root/Desktop/MTP/CustomNetwork/delay/xst/projnav.tmp"
+set -xsthdpdir "/root/Desktop/MTP/CustomNetwork/delay/xst"
+elaborate
+-ifn .prj
+-ifmt mixed

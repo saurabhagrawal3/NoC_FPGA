@@ -1,0 +1,8 @@
+Credit-Based Flow Control
+ -In this scheme, a device advertises an initial amount of credit for each received buffer in its transaction layer
+ -The device at the opposite end of the link, when sending transactions to this device, counts the number of credits each TLP consumes from its account
+ -The sending device may only transmit a TLP when doing so does not make its consumed credit count exceed its credit limit
+ -When the receiving device finishes processing the TLP from its buffer, it signals a return of credits to the sending device, which increases the credit limit by the restored amount
+ -The credit counters are modular counters, and the comparison of consumed credits to credit limit requires modular arithmetic
+ -The advantage of this scheme (compared to other methods such as wait states or handshake-based transfer protocols) is that the latency of credit return does not affect performance, provided that the credit limit is not encountered
+ -This assumption is generally met if each device is designed with adequate buffer sizes

@@ -1,0 +1,5 @@
+An unstated/obvious side-effect is the reduction in overall synthesis+pnr time; this however is common to any multi-FPGA scheme. This also means a possibility of runtime partial reconfiguration at (one of the participating) FPGA level; also has implications on faster debuging/isolation., etc., 
+These side-effects can be better exploited with our NoC like approach, being modular by construction., isolation of bugs and debug process should be more systematic compared to the adhoc partitioning approaches.
+
+Once such (as ours) a system is available, it'd probably pay to do rapid-prototyping and debugging of even those designs that'd otherwise fit on a single-FPGA over multiple-FPGAs in order to avail of the above possibilities.
+

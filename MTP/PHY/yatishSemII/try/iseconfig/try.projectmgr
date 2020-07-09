@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="try" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core - mkIQRouterCoreSimple/flitBuffers - mkInputQueue</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core - mkIQRouterCoreSimple/flitBuffers_1 - mkInputQueue</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core - mkIQRouterCoreSimple/flitBuffers_2 - mkInputQueue</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core - mkIQRouterCoreSimple/flitBuffers_3 - mkInputQueue</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core - mkIQRouterCoreSimple/flitBuffers_4 - mkInputQueue</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core - mkIQRouterCoreSimple/routerAlloc - mkSepRouterAllocator</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core - mkIQRouterCoreSimple/routerAlloc - mkSepRouterAllocator/outputArbs - mkRouterOutputArbitersRoundRobin</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core_1 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core_2 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple/net_routers_router_core_3 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/mkRouterCoreSimple |root|Desktop|MTP|PHY|yatishSemII|try|mkRouterCoreSimple.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>chnl_tester (/root/Desktop/MTP/PHY/yatishSemII/try/RIFFA_glue_logic.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000236000000020000000000000000000000000200000064ffffffff000000810000000300000002000002360000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>chnl_tester (/root/Desktop/MTP/PHY/yatishSemII/try/RIFFA_glue_logic.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000049e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000049e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000075c000000040101000100000000000000000000000064ffffffff0000008100000000000000040000005100000001000000000000002900000001000000000000008400000001000000000000065e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>/root/Desktop/MTP/PHY/yatishSemII/try/connect_parameters.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000125000000010001000100000000000000000000000064ffffffff000000810000000000000001000001250000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Synthesize - XST</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000002e0000000010000000100000000000000000000000064ffffffff000000810000000000000001000002e00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Synthesize - XST</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001510000012001000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top</ClosedNode>
+         <ClosedNode>/chnl_tester |root|Desktop|MTP|PHY|yatishSemII|try|RIFFA_glue_logic.v/m0 - mult_top/Net - mkNetworkSimple</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000236000000020000000000000000000000000200000064ffffffff000000810000000300000002000002360000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000002e0000000010000000100000000000000000000000064ffffffff000000810000000000000001000002e00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Behavioral Check Syntax</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000002e0000000010000000100000000000000000000000064ffffffff000000810000000000000001000002e00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Behavioral Check Syntax</CurrentItem>
+   </ItemView>
+</Project>

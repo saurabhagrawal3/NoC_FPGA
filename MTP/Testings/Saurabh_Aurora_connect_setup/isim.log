@@ -1,0 +1,22 @@
+ISim log file
+Running: /root/Desktop/MTP/Testings/Saurabh_Aurora_connect_setup/CONNECT_testbench_sample_peek_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /root/Desktop/MTP/Testings/Saurabh_Aurora_connect_setup/CONNECT_testbench_sample_peek_isim_beh.wdb 
+ISim P.15xf (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+---- Performing Reset ----
+Finished circuit initialization process.
+@0: Injecting flit 12000a into send port 0
+@0: Receiving flit 12000a at receive port 1
+@0: Injecting flit 14000b into send port 0
+@0: Receiving flit 14000b at receive port 2
+@0: Injecting flit 16000c into send port 0
+# exit 0

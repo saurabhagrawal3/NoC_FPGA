@@ -1,0 +1,444 @@
+Release 14.1 - xst P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+Reading design: Custom_TB.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Custom_TB.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Custom_TB"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : Custom_TB
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../SingleSwitch/build/module_gen_grant_carry.v" in library work
+Compiling verilog file "../3R_Custom/build/module_gen_grant_carry.v" in library work
+Module <module_gen_grant_carry_2> compiled
+Compiling verilog file "../SingleSwitch/build/RegFile_1port.v" in library work
+Module <module_gen_grant_carry_1> compiled
+Compiling verilog file "../SingleSwitch/build/mkRouterOutputArbitersRoundRobin.v" in library work
+Module <RegFile_1port_2> compiled
+Compiling verilog file "../SingleSwitch/build/mkRouterInputArbitersRoundRobin.v" in library work
+Module <mkRouterOutputArbitersRoundRobin_2> compiled
+Compiling verilog file "../3R_Custom/build/RegFile_1port.v" in library work
+Module <mkRouterInputArbitersRoundRobin_2> compiled
+Compiling verilog file "../3R_Custom/build/mkRouterOutputArbitersRoundRobin.v" in library work
+Module <RegFile_1port_1> compiled
+Compiling verilog file "../3R_Custom/build/mkRouterInputArbitersRoundRobin.v" in library work
+Module <mkRouterOutputArbitersRoundRobin_1> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_tx_ll_datapath.v" in library work
+Module <mkRouterInputArbitersRoundRobin_1> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_tx_ll_control.v" in library work
+Module <aurora_8b10b_v5_3_TX_LL_DATAPATH> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_sym_gen.v" in library work
+Module <aurora_8b10b_v5_3_TX_LL_CONTROL> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_sym_dec.v" in library work
+Module <aurora_8b10b_v5_3_SYM_GEN> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_rx_ll_pdu_datapath.v" in library work
+Module <aurora_8b10b_v5_3_SYM_DEC> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_lane_init_sm.v" in library work
+Module <aurora_8b10b_v5_3_RX_LL_PDU_DATAPATH> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_idle_and_ver_gen.v" in library work
+Module <aurora_8b10b_v5_3_LANE_INIT_SM> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_err_detect.v" in library work
+Module <aurora_8b10b_v5_3_IDLE_AND_VER_GEN> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_chbond_count_dec.v" in library work
+Module <aurora_8b10b_v5_3_ERR_DETECT> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_channel_init_sm.v" in library work
+Module <aurora_8b10b_v5_3_CHBOND_COUNT_DEC> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_channel_err_detect.v" in library work
+Module <aurora_8b10b_v5_3_CHANNEL_INIT_SM> compiled
+Compiling verilog file "../SingleSwitch/build/module_outport_encoder.v" in library work
+Module <aurora_8b10b_v5_3_CHANNEL_ERR_DETECT> compiled
+Compiling verilog file "../SingleSwitch/build/mkSepRouterAllocator.v" in library work
+Module <module_outport_encoder_2> compiled
+Compiling verilog file "../SingleSwitch/build/mkOutPortFIFO.v" in library work
+Module <mkSepRouterAllocator_2> compiled
+Compiling verilog file "../SingleSwitch/build/mkInputQueue.v" in library work
+Module <mkOutPortFIFO_2> compiled
+Compiling verilog file "../example_design/gt/aurora_8b10b_v5_3_tile.v" in library work
+Module <mkInputQueue_2> compiled
+Compiling verilog file "../3R_Custom/build/module_outport_encoder.v" in library work
+Module <AURORA_8B10B_V5_3_TILE> compiled
+Compiling verilog file "../3R_Custom/build/mkSepRouterAllocator.v" in library work
+Module <module_outport_encoder_1> compiled
+Compiling verilog file "../3R_Custom/build/mkOutPortFIFO.v" in library work
+Module <mkSepRouterAllocator_1> compiled
+Compiling verilog file "../3R_Custom/build/mkInputQueue.v" in library work
+Module <mkOutPortFIFO_1> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_tx_ll.v" in library work
+Module <mkInputQueue_1> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_rx_ll.v" in library work
+Module <aurora_8b10b_v5_3_TX_LL> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_global_logic.v" in library work
+Module <aurora_8b10b_v5_3_RX_LL> compiled
+Compiling verilog file "../src/aurora_8b10b_v5_3_aurora_lane.v" in library work
+Module <aurora_8b10b_v5_3_GLOBAL_LOGIC> compiled
+Compiling verilog file "../SingleSwitch/build/RegFileLoadSyn.v" in library work
+Module <aurora_8b10b_v5_3_AURORA_LANE> compiled
+Compiling verilog file "../SingleSwitch/build/mkIQRouterCoreSimple.v" in library work
+Module <RegFileLoadSyn_2> compiled
+Compiling verilog file "../example_design/gt/aurora_8b10b_v5_3_transceiver_wrapper.v" in library work
+Module <mkIQRouterCoreSimple_2> compiled
+Compiling verilog file "../3R_Custom/build/RegFileLoadSyn.v" in library work
+Module <aurora_8b10b_v5_3_GTP_WRAPPER> compiled
+Compiling verilog file "../3R_Custom/build/mkIQRouterCoreSimple.v" in library work
+Module <RegFileLoadSyn_1> compiled
+Compiling verilog file "../mkNetworkSimple_2.v" in library work
+Module <mkIQRouterCoreSimple_1> compiled
+Compiling verilog file "../mkNetworkSimple_1.v" in library work
+Module <mkNetworkSimple_2> compiled
+Compiling verilog file "../example_design/clock_module/aurora_8b10b_v5_3_clock_module.v" in library work
+Module <mkNetworkSimple_1> compiled
+Compiling verilog file "../example_design/cc_manager/aurora_8b10b_v5_3_standard_cc_module.v" in library work
+Module <aurora_8b10b_v5_3_CLOCK_MODULE> compiled
+Compiling verilog file "../example_design/aurora_8b10b_v5_3_reset_logic.v" in library work
+Module <aurora_8b10b_v5_3_STANDARD_CC_MODULE> compiled
+Compiling verilog file "../aurora_8b10b_v5_3.v" in library work
+Module <aurora_8b10b_v5_3_RESET_LOGIC> compiled
+Compiling verilog file "../aurora_Network_2.v" in library work
+Module <aurora_8b10b_v5_3> compiled
+Compiling verilog file "../aurora_Network_1.v" in library work
+Module <aurora_Network_2> compiled
+Compiling verilog file "../Custom_TB.v" in library work
+Compiling verilog include file "connect_parameters.v"
+Module <aurora_Network_1> compiled
+Module <Custom_TB> compiled
+No errors in compilation
+Analysis of file <"Custom_TB.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Custom_TB> in library <work> with parameters.
+	CLOCKPERIOD_1 = 6.400000
+	CLOCKPERIOD_2 = 6.400000
+	SIM_MAX_TIME = "00000000000010000000001011001000"
+	credit_port_width = "00000000000000000000000000000010"
+	dest_bits = "00000000000000000000000000000011"
+	flit_port_width = "00000000000000000000000000010000"
+	vc_bits = "00000000000000000000000000000001"
+
+Analyzing hierarchy for module <aurora_Network_1> in library <work> with parameters.
+	SIM_GTPRESET_SPEEDUP = "00000000000000000000000000000001"
+	USE_CHIPSCOPE = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <aurora_Network_2> in library <work> with parameters.
+	SIM_GTPRESET_SPEEDUP = "00000000000000000000000000000001"
+	USE_CHIPSCOPE = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_CLOCK_MODULE> in library <work> with parameters.
+	CLK_PERIOD = 3.200000
+	DIVIDE = "00000000000000000000000000000001"
+	MULT = "00000000000000000000000000000010"
+	OUT0_DIVIDE = "00000000000000000000000000000100"
+	OUT1_DIVIDE = "00000000000000000000000000000010"
+	OUT2_DIVIDE = "00000000000000000000000000000100"
+	OUT3_DIVIDE = "00000000000000000000000000000010"
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_STANDARD_CC_MODULE> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_RESET_LOGIC> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3> in library <work> with parameters.
+	SIM_GTPRESET_SPEEDUP = "00000000000000000000000000000001"
+
+Analyzing hierarchy for module <mkNetworkSimple_1> in library <work>.
+
+Analyzing hierarchy for module <mkNetworkSimple_2> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_AURORA_LANE> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_GTP_WRAPPER> in library <work> with parameters.
+	CHAN_BOND_LEVEL_0 = "00000000000000000000000000000000"
+	CHAN_BOND_LEVEL_1 = "00000000000000000000000000000000"
+	CHAN_BOND_MODE_0 = "OFF"
+	CHAN_BOND_MODE_1 = "OFF"
+	CLKINDC_B = "TRUE"
+	SIM_GTPRESET_SPEEDUP = "00000000000000000000000000000001"
+	SIM_MODE = "FAST"
+	SIM_PLL_PERDIV2 = "101000000"
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_GLOBAL_LOGIC> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_TX_LL> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_RX_LL> in library <work>.
+
+Analyzing hierarchy for module <RegFileLoadSyn_1> in library <work> with parameters.
+	addr_width = "00000000000000000000000000000011"
+	binary = "00000000000000000000000000000000"
+	data_width = "00000000000000000000000000000010"
+	file = "customa7a54ec6eb873981e3716cfb5fb7eba1_8RTs_2VCs_8BD_10DW_SepIFRoundRobinAlloc_routing_1.hex"
+	hi = "00000000000000000000000000000111"
+	lo = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <RegFileLoadSyn_1> in library <work> with parameters.
+	addr_width = "00000000000000000000000000000011"
+	binary = "00000000000000000000000000000000"
+	data_width = "00000000000000000000000000000010"
+	file = "customa7a54ec6eb873981e3716cfb5fb7eba1_8RTs_2VCs_8BD_10DW_SepIFRoundRobinAlloc_routing_2.hex"
+	hi = "00000000000000000000000000000111"
+	lo = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <RegFileLoadSyn_1> in library <work> with parameters.
+	addr_width = "00000000000000000000000000000011"
+	binary = "00000000000000000000000000000000"
+	data_width = "00000000000000000000000000000010"
+	file = "customa7a54ec6eb873981e3716cfb5fb7eba1_8RTs_2VCs_8BD_10DW_SepIFRoundRobinAlloc_routing_0.hex"
+	hi = "00000000000000000000000000000111"
+	lo = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <mkIQRouterCoreSimple_1> in library <work>.
+
+Analyzing hierarchy for module <RegFileLoadSyn_2> in library <work> with parameters.
+	addr_width = "00000000000000000000000000000011"
+	binary = "00000000000000000000000000000000"
+	data_width = "00000000000000000000000000000011"
+	file = "single_switch_5RTs_2VCs_8BD_10DW_SepIFRoundRobinAlloc_routing_0.hex"
+	hi = "00000000000000000000000000000111"
+	lo = "00000000000000000000000000000000"
+
+Analyzing hierarchy for module <mkIQRouterCoreSimple_2> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_LANE_INIT_SM> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_CHBOND_COUNT_DEC> in library <work> with parameters.
+	CHANNEL_BOND_LOAD_CODE = "100111"
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_SYM_GEN> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_SYM_DEC> in library <work> with parameters.
+	A_CHAR_0 = "0111"
+	A_CHAR_1 = "1100"
+	CC_CHAR_0 = "1111"
+	CC_CHAR_1 = "0111"
+	ECP_0 = "1111"
+	ECP_1 = "1101"
+	ECP_2 = "1111"
+	ECP_3 = "1110"
+	K_CHAR_0 = "1011"
+	K_CHAR_1 = "1100"
+	PAD_0 = "1001"
+	PAD_1 = "1100"
+	SCP_0 = "0101"
+	SCP_1 = "1100"
+	SCP_2 = "1111"
+	SCP_3 = "1011"
+	SPA_DATA_0 = "0010"
+	SPA_DATA_1 = "1100"
+	SPA_NEG_DATA_0 = "1101"
+	SPA_NEG_DATA_1 = "0011"
+	SP_DATA_0 = "0100"
+	SP_DATA_1 = "1010"
+	SP_NEG_DATA_0 = "1011"
+	SP_NEG_DATA_1 = "0101"
+	VER_DATA_0 = "1110"
+	VER_DATA_1 = "1000"
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_ERR_DETECT> in library <work>.
+
+Analyzing hierarchy for module <AURORA_8B10B_V5_3_TILE> in library <work> with parameters.
+	TILE_CHAN_BOND_LEVEL_0 = "00000000000000000000000000000000"
+	TILE_CHAN_BOND_LEVEL_1 = "00000000000000000000000000000000"
+	TILE_CHAN_BOND_MODE_0 = "OFF"
+	TILE_CHAN_BOND_MODE_1 = "OFF"
+	TILE_SIM_GTPRESET_SPEEDUP = "00000000000000000000000000000001"
+	TILE_SIM_MODE = "FAST"
+	TILE_SIM_PLL_PERDIV2 = "101000000"
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_CHANNEL_INIT_SM> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_IDLE_AND_VER_GEN> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_CHANNEL_ERR_DETECT> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_TX_LL_DATAPATH> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_TX_LL_CONTROL> in library <work>.
+
+Analyzing hierarchy for module <aurora_8b10b_v5_3_RX_LL_PDU_DATAPATH> in library <work>.
+
+Analyzing hierarchy for module <mkInputQueue_1> in library <work>.
+
+Analyzing hierarchy for module <mkOutPortFIFO_1> in library <work>.
+
+Analyzing hierarchy for module <mkSepRouterAllocator_1> in library <work>.
+
+Analyzing hierarchy for module <module_outport_encoder_1> in library <work>.
+
+Analyzing hierarchy for module <mkInputQueue_2> in library <work>.
+
+Analyzing hierarchy for module <mkOutPortFIFO_2> in library <work>.
+
+Analyzing hierarchy for module <mkSepRouterAllocator_2> in library <work>.
+
+Analyzing hierarchy for module <module_outport_encoder_2> in library <work>.
+
+Analyzing hierarchy for module <RegFile_1port_1> in library <work> with parameters.
+	addr_width = "00000000000000000000000000000011"
+	data_width = "00000000000000000000000000001111"
+	depth = "00000000000000000000000000001000"
+
+Analyzing hierarchy for module <mkRouterInputArbitersRoundRobin_1> in library <work>.
+
+Analyzing hierarchy for module <mkRouterOutputArbitersRoundRobin_1> in library <work>.
+
+Analyzing hierarchy for module <RegFile_1port_2> in library <work> with parameters.
+	addr_width = "00000000000000000000000000000011"
+	data_width = "00000000000000000000000000001111"
+	depth = "00000000000000000000000000001000"
+
+Analyzing hierarchy for module <mkRouterInputArbitersRoundRobin_2> in library <work>.
+
+Analyzing hierarchy for module <mkRouterOutputArbitersRoundRobin_2> in library <work>.
+
+Analyzing hierarchy for module <module_gen_grant_carry_1> in library <work>.
+
+Analyzing hierarchy for module <module_gen_grant_carry_2> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Custom_TB>.
+ERROR:Xst:862 - "../Custom_TB.v" line 15: Unsupported parameter declaration.
+ERROR:Xst:862 - "../Custom_TB.v" line 16: Unsupported parameter declaration.
+	CLOCKPERIOD_1 = 6.400000
+	CLOCKPERIOD_2 = 6.400000
+	SIM_MAX_TIME = 32'sb00000000000010000000001011001000
+	credit_port_width = 32'sb00000000000000000000000000000010
+	dest_bits = 32'sb00000000000000000000000000000011
+	flit_port_width = 32'sb00000000000000000000000000010000
+	vc_bits = 32'sb00000000000000000000000000000001
+WARNING:Xst:916 - "../Custom_TB.v" line 158: Delay is ignored for synthesis.
+WARNING:Xst:916 - "../Custom_TB.v" line 165: Delay is ignored for synthesis.
+ERROR:Xst:2634 - "../Custom_TB.v" line 172: For loop stop condition should depend on loop variable or be static.
+ERROR:Xst:2634 - "../Custom_TB.v" line 177: For loop stop condition should depend on loop variable or be static.
+WARNING:Xst:916 - "../Custom_TB.v" line 142: Delay is ignored for synthesis.
+WARNING:Xst:916 - "../Custom_TB.v" line 150: Delay is ignored for synthesis.
+WARNING:Xst:2325 - "../Custom_TB.v" line 387: Unsupported escape sequence : %3.
+WARNING:Xst:2326 - "../Custom_TB.v" line 387: Invalid escape sequence : %x.
+WARNING:Xst:2325 - "../Custom_TB.v" line 387: Unsupported escape sequence : %0.
+WARNING:Xst:2325 - "../Custom_TB.v" line 387: Unsupported escape sequence : %0.
+WARNING:Xst:2325 - "../Custom_TB.v" line 387: Unsupported escape sequence : %0.
+WARNING:Xst:2323 - "../Custom_TB.v" line 387: Parameter 6 is not constant in call of system task $display.
+"../Custom_TB.v" line 387: $display : @%3d: Sending flit %x into send port %0d from Router = %0d to Router = %0d
+ERROR:Xst:850 - "../Custom_TB.v" line 388: Unsupported Wait Statement. 
+WARNING:Xst:2325 - "../Custom_TB.v" line 390: Unsupported escape sequence : %3.
+WARNING:Xst:2326 - "../Custom_TB.v" line 390: Invalid escape sequence : %x.
+WARNING:Xst:2325 - "../Custom_TB.v" line 390: Unsupported escape sequence : %0.
+WARNING:Xst:2323 - "../Custom_TB.v" line 390: Parameter 4 is not constant in call of system task $display.
+"../Custom_TB.v" line 390: $display : @%3d: Receiving flit %x at receive port of router = %0d
+ 
+Found 5 error(s). Aborting synthesis.
+--> 
+
+
+Total memory usage is 555720 kilobytes
+
+Number of errors   :    5 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

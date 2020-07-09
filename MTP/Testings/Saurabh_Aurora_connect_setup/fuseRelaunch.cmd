@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/root/Desktop/MTP/Testings/Saurabh_Aurora_connect_setup/CONNECT_testbench_sample_peek_isim_beh.exe" -prj "/root/Desktop/MTP/Testings/Saurabh_Aurora_connect_setup/CONNECT_testbench_sample_peek_beh.prj" "work.CONNECT_testbench_sample_peek" "work.glbl" 

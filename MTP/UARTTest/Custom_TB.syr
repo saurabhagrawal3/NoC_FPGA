@@ -1,0 +1,506 @@
+Release 14.1 - xst P.15xf (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: Custom_TB.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Custom_TB.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Custom_TB"
+Output Format                      : NGC
+Target Device                      : xc5vlx110t-1-ff1136
+
+---- Source Options
+Top Module Name                    : Custom_TB
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "uart_tx.v" in library work
+Compiling verilog file "uart_rx.v" in library work
+Module <uart_tx> compiled
+Compiling verilog file "baud_gen.v" in library work
+Module <uart_rx> compiled
+Compiling verilog file "UART_TB.v" in library work
+Module <baud_gen> compiled
+Module <Custom_TB> compiled
+No errors in compilation
+Analysis of file <"Custom_TB.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Custom_TB> in library <work>.
+
+Analyzing hierarchy for module <baud_gen> in library <work>.
+
+Analyzing hierarchy for module <uart_rx> in library <work>.
+
+Analyzing hierarchy for module <uart_tx> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Custom_TB>.
+Module <Custom_TB> is correct for synthesis.
+ 
+Analyzing module <baud_gen> in library <work>.
+Module <baud_gen> is correct for synthesis.
+ 
+Analyzing module <uart_rx> in library <work>.
+Module <uart_rx> is correct for synthesis.
+ 
+Analyzing module <uart_tx> in library <work>.
+Module <uart_tx> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <baud_gen>.
+    Related source file is "baud_gen.v".
+    Found 1-bit register for signal <ce_32>.
+    Found 16-bit updown accumulator for signal <counter>.
+    Found 16-bit comparator greatequal for signal <counter$cmp_ge0000> created at line 36.
+    Summary:
+	inferred   1 Accumulator(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <baud_gen> synthesized.
+
+
+Synthesizing Unit <uart_rx>.
+    Related source file is "uart_rx.v".
+    Found 1-bit register for signal <new_rx_data>.
+    Found 16-bit register for signal <rx_data>.
+    Found 5-bit up counter for signal <bit_count>.
+    Found 5-bit up counter for signal <count32>.
+    Found 16-bit register for signal <data_buf>.
+    Found 2-bit register for signal <in_sync>.
+    Found 1-bit register for signal <rx_busy>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  36 D-type flip-flop(s).
+Unit <uart_rx> synthesized.
+
+
+Synthesizing Unit <uart_tx>.
+    Related source file is "uart_tx.v".
+WARNING:Xst:646 - Signal <reg_new_tx_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <tx_busy>.
+    Found 1-bit register for signal <ser_out>.
+    Found 5-bit up counter for signal <bit_count>.
+    Found 5-bit up counter for signal <count32>.
+    Found 17-bit register for signal <data_buf>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  19 D-type flip-flop(s).
+Unit <uart_tx> synthesized.
+
+
+Synthesizing Unit <Custom_TB>.
+    Related source file is "UART_TB.v".
+WARNING:Xst:1780 - Signal <tx_data> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <tx_busy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rx_data> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <new_tx_data> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <new_rx_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1872 - Variable <cycle> is used but never assigned.
+Unit <Custom_TB> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 4
+ 5-bit up counter                                      : 4
+# Accumulators                                         : 1
+ 16-bit updown accumulator                             : 1
+# Registers                                            : 9
+ 1-bit register                                        : 5
+ 16-bit register                                       : 2
+ 17-bit register                                       : 1
+ 2-bit register                                        : 1
+# Comparators                                          : 1
+ 16-bit comparator greatequal                          : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <in_sync_0> (without init value) has a constant value of 1 in block <receiver>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <tx_busy> (without init value) has a constant value of 0 in block <transmiter>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <ser_out> (without init value) has a constant value of 1 in block <transmiter>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <in_sync_1> (without init value) has a constant value of 1 in block <receiver>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_16> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_15> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_14> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_13> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_12> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_11> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_10> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_9> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_8> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_7> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_6> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_5> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_4> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_3> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_2> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_1> is unconnected in block <transmiter>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_0> is unconnected in block <transmiter>.
+WARNING:Xst:1290 - Hierarchical block <transmiter> is unconnected in block <Custom_TB>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 4
+ 5-bit up counter                                      : 4
+# Accumulators                                         : 1
+ 16-bit updown accumulator                             : 1
+# Registers                                            : 56
+ Flip-Flops                                            : 56
+# Comparators                                          : 1
+ 16-bit comparator greatequal                          : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <tx_busy> (without init value) has a constant value of 0 in block <uart_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <ser_out> (without init value) has a constant value of 1 in block <uart_tx>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_16> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_15> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_14> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_13> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_12> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_11> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_10> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_9> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_8> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_7> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_6> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_5> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_4> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_3> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_2> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_1> is unconnected in block <uart_tx>.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <data_buf_0> is unconnected in block <uart_tx>.
+
+Optimizing unit <Custom_TB> ...
+
+Optimizing unit <uart_rx> ...
+WARNING:Xst:1710 - FF/Latch <receiver/in_sync_0> (without init value) has a constant value of 1 in block <Custom_TB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <receiver/in_sync_1> (without init value) has a constant value of 1 in block <Custom_TB>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <receiver/new_rx_data> of sequential type is unconnected in block <Custom_TB>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Custom_TB, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 60
+ Flip-Flops                                            : 60
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Custom_TB.ngr
+Top Level Output File Name         : Custom_TB
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 34
+
+Cell Usage :
+# BELS                             : 72
+#      LUT1                        : 6
+#      LUT2                        : 6
+#      LUT3                        : 7
+#      LUT4                        : 2
+#      LUT5                        : 3
+#      LUT6                        : 16
+#      MUXCY                       : 15
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 60
+#      FDC                         : 18
+#      FDCE                        : 42
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 17
+#      IBUF                        : 1
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 5vlx110tff1136-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              60  out of  69120     0%  
+ Number of Slice LUTs:                   40  out of  69120     0%  
+    Number used as Logic:                40  out of  69120     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     71
+   Number with an unused Flip Flop:      11  out of     71    15%  
+   Number with an unused LUT:            31  out of     71    43%  
+   Number of fully used LUT-FF pairs:    29  out of     71    40%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  18  out of    640     2%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 60    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 60    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 3.571ns (Maximum Frequency: 280.034MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 3.259ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 3.571ns (frequency: 280.034MHz)
+  Total number of paths / destination ports: 2437 / 101
+-------------------------------------------------------------------------
+Delay:               3.571ns (Levels of Logic = 19)
+  Source:            baud_gen_1/counter_2 (FF)
+  Destination:       baud_gen_1/counter_15 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: baud_gen_1/counter_2 to baud_gen_1/counter_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.471   0.715  baud_gen_1/counter_2 (baud_gen_1/counter_2)
+     LUT3:I0->O            1   0.094   0.480  baud_gen_1/counter_cmp_ge0000215_SW0 (N5)
+     LUT6:I5->O           11   0.094   0.535  baud_gen_1/counter_cmp_ge0000215 (baud_gen_1/counter_cmp_ge0000215)
+     LUT6:I5->O            2   0.094   0.341  baud_gen_1/counter_cmp_ge0000266 (baud_gen_1/counter_cmp_ge0000)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<0> (baud_gen_1/Maccum_counter_cy<0>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<1> (baud_gen_1/Maccum_counter_cy<1>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<2> (baud_gen_1/Maccum_counter_cy<2>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<3> (baud_gen_1/Maccum_counter_cy<3>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<4> (baud_gen_1/Maccum_counter_cy<4>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<5> (baud_gen_1/Maccum_counter_cy<5>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<6> (baud_gen_1/Maccum_counter_cy<6>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<7> (baud_gen_1/Maccum_counter_cy<7>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<8> (baud_gen_1/Maccum_counter_cy<8>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<9> (baud_gen_1/Maccum_counter_cy<9>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<10> (baud_gen_1/Maccum_counter_cy<10>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<11> (baud_gen_1/Maccum_counter_cy<11>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<12> (baud_gen_1/Maccum_counter_cy<12>)
+     MUXCY:CI->O           1   0.026   0.000  baud_gen_1/Maccum_counter_cy<13> (baud_gen_1/Maccum_counter_cy<13>)
+     MUXCY:CI->O           0   0.026   0.000  baud_gen_1/Maccum_counter_cy<14> (baud_gen_1/Maccum_counter_cy<14>)
+     XORCY:CI->O           1   0.357   0.000  baud_gen_1/Maccum_counter_xor<15> (Result<15>)
+     FDC:D                    -0.018          baud_gen_1/counter_15
+    ----------------------------------------
+    Total                      3.571ns (1.500ns logic, 2.071ns route)
+                                       (42.0% logic, 58.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              3.259ns (Levels of Logic = 1)
+  Source:            receiver/rx_data_15 (FF)
+  Destination:       out<15> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: receiver/rx_data_15 to out<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.471   0.336  receiver/rx_data_15 (receiver/rx_data_15)
+     OBUF:I->O                 2.452          out_15_OBUF (out<15>)
+    ----------------------------------------
+    Total                      3.259ns (2.923ns logic, 0.336ns route)
+                                       (89.7% logic, 10.3% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.47 secs
+ 
+--> 
+
+
+Total memory usage is 548108 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   51 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /root/Desktop/MTP/UARTTest/Custom_TB_isim_beh.exe -prj /root/Desktop/MTP/UARTTest/Custom_TB_beh.prj work.Custom_TB work.glbl 
+ISim P.15xf (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/root/Desktop/MTP/UARTTest/uart_tx.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/UARTTest/uart_rx.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/UARTTest/baud_gen.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/UARTTest/UART_TB.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:329 - "/root/Desktop/MTP/UARTTest/UART_TB.v" Line 65: Target <rx_data> of concurrent assignment or output port connection should be a net type.
+Completed static elaboration
+Fuse Memory Usage: 94188 KB
+Fuse CPU Usage: 1000 ms
+Compiling module baud_gen
+Compiling module uart_rx
+Compiling module uart_tx
+Compiling module Custom_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 Verilog Units
+Built simulation executable /root/Desktop/MTP/UARTTest/Custom_TB_isim_beh.exe
+Fuse Memory Usage: 1178848 KB
+Fuse CPU Usage: 1030 ms
+GCC CPU Usage: 590 ms

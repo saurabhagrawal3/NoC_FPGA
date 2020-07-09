@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/root/Desktop/MTP/UARTTest/Custom_TB.xst" -ofn "/root/Desktop/MTP/UARTTest/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/UARTTest/Custom_TB.xst" -ofn "/root/Desktop/MTP/UARTTest/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/UARTTest/Custom_TB.xst" -ofn "/root/Desktop/MTP/UARTTest/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/UARTTest/Custom_TB.xst" -ofn "/root/Desktop/MTP/UARTTest/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/UARTTest/Custom_TB.xst" -ofn "/root/Desktop/MTP/UARTTest/Custom_TB.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/UARTTest/Custom_TB.xst" -ofn "/root/Desktop/MTP/UARTTest/Custom_TB.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 Custom_TB.ngc Custom_TB.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o Custom_TB_map.ncd Custom_TB.ngd Custom_TB.pcf 
+par -w -intstyle ise -ol high -mt off Custom_TB_map.ncd Custom_TB.ncd Custom_TB.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml Custom_TB.twx Custom_TB.ncd -o Custom_TB.twr Custom_TB.pcf 

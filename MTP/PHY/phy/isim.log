@@ -1,0 +1,40 @@
+ISim log file
+Running: /root/Desktop/MTP/PHY/phy/testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /root/Desktop/MTP/PHY/phy/testbench_isim_beh.wdb 
+ISim P.15xf (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:62 - The LM_LICENSE_FILE environment variable is set to '27000@10.107.88.26:27000@10.107.90.15'.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is root, on host unknown.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+Cannot connect to license server system.
+ The license server manager (lmgrd) has not been started yet,
+ the wrong port@host or license file is being used, or the
+ port or hostname in the license file has been changed.
+Feature:       ISIM
+Server name:   10.107.88.26
+License path:  /root/.Xilinx/Xilinx.lic:/opt/Xilinx/14.1/ISE_DS/ISE//data/*.lic:/opt/Xilinx/14.1/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.1/ISE_DS/ISE//coregen/core_licenses/XilinxFree.lic:/opt/Xilinx/14.1/ISE_DS/EDK/data/core_licenses/Xilinx.lic:27000@10.107.88.26:27000@10.107.90.15:
+FLEXnet Licensing error:-15,570.  System Error: 101 "Network is unreachable"
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.acresso.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# exit 0

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/root/Desktop/MTP/Testings/yatish_setup/CONNECT_testbench_sample_peek_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CONNECT_testbench_sample_peek" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flit_out[0:3,20:0]</obj_property>
+      <obj_property name="ObjectShortName">flit_out[0:3,20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[0,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[1,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[2,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[3,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flit_in[0:3,20:0]</obj_property>
+      <obj_property name="ObjectShortName">flit_in[0:3,20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[0,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[1,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[2,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[3,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/send_ports_0_putFlit_flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_ports_0_putFlit_flit_in[20:0]</obj_property>
+      <obj_property name="ObjectShortName">send_ports_0_putFlit_flit_in[20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/send_ports_0_putFlit_flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_ports_0_putFlit_flit_in[20:0]</obj_property>
+      <obj_property name="ObjectShortName">send_ports_0_putFlit_flit_in[20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_routeTable_0_rt_ifc_banks_banks_rf_0$ADDR_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">net_routers_routeTable_0_rt_ifc_banks_banks_rf_0$ADDR_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">net_routers_routeTable_0_rt_ifc_banks_banks_rf_0$ADDR_1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_routeTable_0_rt_ifc_banks_banks_rf_0$D_OUT_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">net_routers_routeTable_0_rt_ifc_banks_banks_rf_0$D_OUT_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">net_routers_routeTable_0_rt_ifc_banks_banks_rf_0$D_OUT_1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0$in_ports_0_putRoutedFlit_flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">net_routers_router_core_0$in_ports_0_putRoutedFlit_flit_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">net_routers_router_core_0$in_ports_0_putRoutedFlit_flit_in[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/in_ports_0_putRoutedFlit_flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_ports_0_putRoutedFlit_flit_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in_ports_0_putRoutedFlit_flit_in[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers$enq_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flitBuffers$enq_data_in[19:0]</obj_property>
+      <obj_property name="ObjectShortName">flitBuffers$enq_data_in[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers$EN_enq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">flitBuffers$EN_enq</obj_property>
+      <obj_property name="ObjectShortName">flitBuffers$EN_enq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/EN_in_ports_0_putRoutedFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_in_ports_0_putRoutedFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_in_ports_0_putRoutedFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/outPortFIFOs$enq_sendData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outPortFIFOs$enq_sendData[2:0]</obj_property>
+      <obj_property name="ObjectShortName">outPortFIFOs$enq_sendData[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/outPortFIFOs$EN_enq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">outPortFIFOs$EN_enq</obj_property>
+      <obj_property name="ObjectShortName">outPortFIFOs$EN_enq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/enq_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enq_data_in[19:0]</obj_property>
+      <obj_property name="ObjectShortName">enq_data_in[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem$D_IN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inputQueue_ifc_mf_ifc_fifoMem$D_IN[19:0]</obj_property>
+      <obj_property name="ObjectShortName">inputQueue_ifc_mf_ifc_fifoMem$D_IN[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/D_IN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_IN[19:0]</obj_property>
+      <obj_property name="ObjectShortName">D_IN[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/WE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">WE</obj_property>
+      <obj_property name="ObjectShortName">WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/ADDR_IN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDR_IN[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_IN[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">arr[0:7,19:0]</obj_property>
+      <obj_property name="ObjectShortName">arr[0:7,19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,19:0]</obj_property>
+         <obj_property name="ObjectShortName">arr[0,19:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,19:0]</obj_property>
+         <obj_property name="ObjectShortName">arr[1,19:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,19:0]</obj_property>
+         <obj_property name="ObjectShortName">arr[2,19:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,19:0]</obj_property>
+         <obj_property name="ObjectShortName">arr[3,19:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,19:0]</obj_property>
+         <obj_property name="ObjectShortName">arr[4,19:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,19:0]</obj_property>
+         <obj_property name="ObjectShortName">arr[5,19:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,19:0]</obj_property>
+         <obj_property name="ObjectShortName">arr[6,19:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/arr[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,19:0]</obj_property>
+         <obj_property name="ObjectShortName">arr[7,19:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/ADDR_OUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDR_OUT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_OUT[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/inputQueue_ifc_mf_ifc_fifoMem/D_OUT" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D_OUT[19:0]</obj_property>
+      <obj_property name="ObjectShortName">D_OUT[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers/deq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">deq[19:0]</obj_property>
+      <obj_property name="ObjectShortName">deq[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/flitBuffers$deq" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flitBuffers$deq[19:0]</obj_property>
+      <obj_property name="ObjectShortName">flitBuffers$deq[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetwork_3_routers/net_routers_router_core_0/hasFlitsToSend_perIn$wget" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">hasFlitsToSend_perIn$wget[20:0]</obj_property>
+      <obj_property name="ObjectShortName">hasFlitsToSend_perIn$wget[20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

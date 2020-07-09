@@ -1,0 +1,53 @@
+
+\section{Automated NoC Partitioning}
+
+\subsection{Router Details}
+\begin{frame}
+\frametitle{Router Ports}
+Each router in this generated network consist of 5 ports each port has the following interfacing pins:
+\begin{table}
+\tiny
+\caption{Router Pins}
+ \begin{tabular}{||c | c||} 
+ \hline
+					  \textbf{PIN} & \textbf{DESCRIPTION} 				\\ \hline
+	in\_ports\_$<$PORT$>$\_putRoutedFlit\_flit\_in & Input data to router				\\
+	      EN\_in\_ports\_$<$PORT$>$\_putRoutedFlit & Enable to receive from the input port		\\
+	      EN\_in\_ports\_$<$PORT$>$\_getNonFullVCs & Enable for virtual channel for this port	\\
+		  in\_ports\_$<$PORT$>$\_getNonFullVCs & Input information of non-full VC 		\\
+		   EN\_out\_ports\_$<$PORT$>$\_getFlit & Output port enable				\\
+		       out\_ports\_$<$PORT$>$\_getFlit & Output data from router			\\
+     out\_ports\_$<$PORT$>$\_putNonFullVCs\_nonFullVCs & VC information for output port			\\
+	     EN\_out\_ports\_$<$PORT$>$\_putNonFullVCs & Enable for out port VC				\\
+\hline
+\end{tabular}
+\end{table}   % Insert frame title between curly braces
+\end{frame}
+
+\subsection{Partitioning Links}
+\begin{frame}
+\frametitle{Partitioning Links Between Two Adjacent Routers}
+\begin{itemize}
+	\item{These links shown in table are cut and exposed at the top level for interfacing with inter-chip communication module}
+\end{itemize}
+\begin{table}
+\tiny
+\caption{NoC Partitioning Links}
+ \begin{tabular}{||c | c||} 
+ \hline
+					  \textbf{PIN}	  & \textbf{DESCRIPTION} 				\\ \hline
+\textbf{in\_ports\_$<$PORT$>$\_putRoutedFlit\_flit\_in}   & \textbf{Input data to router Exposed}		\\
+	 \textbf{out\_ports\_$<$PORT$>$\_getFlit} 	  & \textbf{Output data from router Exposed}			\\
+\textbf{out\_ports\_$<$PORT$>$\_putNonFullVCs\_nonFullVCs}& \textbf{VC information exposed for interface}	\\
+\hline
+\end{tabular}
+\end{table}   % Insert frame title between curly braces
+\end{frame}
+
+\subsection{Partitioning Script}
+\begin{frame}
+\frametitle{Automated Partitioning Script Parameters \\ 
+\tiny{Original Script developed by Yatish Turakhia}}
+\tiny
+    \lstinputlisting[language=Python]{param.py}
+\end{frame}

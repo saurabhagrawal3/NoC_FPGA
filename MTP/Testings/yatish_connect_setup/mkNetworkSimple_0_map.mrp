@@ -1,0 +1,454 @@
+Release 14.1 Map P.15xf (lin64)
+Xilinx Mapping Report File for Design 'mkNetworkSimple_0'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol
+high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr
+off -lc off -power off -o mkNetworkSimple_0_map.ncd mkNetworkSimple_0.ngd
+mkNetworkSimple_0.pcf 
+Target Device  : xc5vlx110t
+Target Package : ff1136
+Target Speed   : -1
+Mapper Version : virtex5 -- $Revision: 1.55 $
+Mapped Date    : Wed Sep 24 23:34:30 2014
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                   575 out of  69,120    1%
+    Number used as Flip Flops:                 575
+  Number of Slice LUTs:                      1,051 out of  69,120    1%
+    Number used as logic:                      871 out of  69,120    1%
+      Number using O6 output only:             871
+    Number used as Memory:                     174 out of  17,920    1%
+      Number used as Dual Port RAM:            174
+        Number using O6 output only:            38
+        Number using O5 output only:            10
+        Number using O5 and O6:                126
+    Number used as exclusive route-thru:         6
+  Number of route-thrus:                         6
+    Number using O6 output only:                 5
+    Number using O5 and O6:                      1
+
+Slice Logic Distribution:
+  Number of occupied Slices:                   472 out of  17,280    2%
+  Number of LUT Flip Flop pairs used:        1,253
+    Number with an unused Flip Flop:           678 out of   1,253   54%
+    Number with an unused LUT:                 202 out of   1,253   16%
+    Number of fully used LUT-FF pairs:         373 out of   1,253   29%
+    Number of unique control sets:             143
+    Number of slice register sites lost
+      to control set restrictions:             245 out of  69,120    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                       157 out of     640   24%
+
+Specific Feature Utilization:
+  Number of BUFG/BUFGCTRLs:                      1 out of      32    3%
+    Number used as BUFGs:                        1
+
+Average Fanout of Non-Clock Nets:                4.06
+
+Peak Memory Usage:  964 MB
+Total REAL time to MAP completion:  43 secs 
+Total CPU time to MAP completion:   40 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current
+version of Xilinx tools will continue to function, but you no longer qualify for
+Xilinx software updates or new releases.
+
+Section 3 - Informational
+-------------------------
+INFO:Security:56 - Part 'xc5vlx110t' is not a WebPack part.
+INFO:LIT:243 - Logical network EN_send_ports_1_getNonFullVCs has no load.
+INFO:LIT:395 - The above info message is repeated 50 more times for the
+   following (max. 5 shown):
+   EN_send_ports_2_getNonFullVCs,
+   EN_recv_ports_2_getFlit,
+   EN_recv_ports_1_getFlit,
+   EN_send_ports_0_getNonFullVCs,
+   EN_recv_ports_0_getFlit
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_0_rt_ifc_banks_banks_rf_0/Mram_arr1" (output
+   signal=net_routers_routeTable_0_rt_ifc_banks_banks_rf_0_D_OUT_1<0>) INITSTATE
+   has been changed from 0000000A to AAAAAAAA because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_0_rt_ifc_banks_banks_rf_0/Mram_arr3" (output
+   signal=net_routers_routeTable_0_rt_ifc_banks_banks_rf_0_D_OUT_1<2>) INITSTATE
+   has been changed from 00000004 to 44444444 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_0_rt_ifc_banks_banks_rf_1/Mram_arr1" (output
+   signal=net_routers_routeTable_0_rt_ifc_banks_banks_rf_1_D_OUT_1<0>) INITSTATE
+   has been changed from 0000000A to AAAAAAAA because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_0_rt_ifc_banks_banks_rf_1/Mram_arr3" (output
+   signal=net_routers_routeTable_0_rt_ifc_banks_banks_rf_1_D_OUT_1<2>) INITSTATE
+   has been changed from 00000004 to 44444444 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_0_rt_ifc_banks_banks_rf_2/Mram_arr1" (output
+   signal=net_routers_routeTable_0_rt_ifc_banks_banks_rf_2_D_OUT_1<0>) INITSTATE
+   has been changed from 0000000A to AAAAAAAA because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_0_rt_ifc_banks_banks_rf_2/Mram_arr3" (output
+   signal=net_routers_routeTable_0_rt_ifc_banks_banks_rf_2_D_OUT_1<2>) INITSTATE
+   has been changed from 00000004 to 44444444 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_1_rt_ifc_banks_banks_rf_0/Mram_arr1" (output
+   signal=net_routers_routeTable_1_rt_ifc_banks_banks_rf_0_D_OUT_1<0>) INITSTATE
+   has been changed from 00000005 to 55555555 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_1_rt_ifc_banks_banks_rf_0/Mram_arr3" (output
+   signal=net_routers_routeTable_1_rt_ifc_banks_banks_rf_0_D_OUT_1<2>) INITSTATE
+   has been changed from 00000008 to 88888888 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_1_rt_ifc_banks_banks_rf_2/Mram_arr1" (output
+   signal=net_routers_routeTable_1_rt_ifc_banks_banks_rf_2_D_OUT_1<0>) INITSTATE
+   has been changed from 00000005 to 55555555 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_1_rt_ifc_banks_banks_rf_2/Mram_arr3" (output
+   signal=net_routers_routeTable_1_rt_ifc_banks_banks_rf_2_D_OUT_1<2>) INITSTATE
+   has been changed from 00000008 to 88888888 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_1_rt_ifc_banks_banks_rf_3/Mram_arr1" (output
+   signal=net_routers_routeTable_1_rt_ifc_banks_banks_rf_3_D_OUT_1<0>) INITSTATE
+   has been changed from 00000005 to 55555555 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_1_rt_ifc_banks_banks_rf_3/Mram_arr3" (output
+   signal=net_routers_routeTable_1_rt_ifc_banks_banks_rf_3_D_OUT_1<2>) INITSTATE
+   has been changed from 00000008 to 88888888 because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_2_rt_ifc_banks_banks_rf_0/Mram_arr1" (output
+   signal=net_routers_routeTable_2_rt_ifc_banks_banks_rf_0_D_OUT_1<0>) INITSTATE
+   has been changed from 0000000A to AAAAAAAA because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_2_rt_ifc_banks_banks_rf_0/Mram_arr2" (output
+   signal=net_routers_routeTable_2_rt_ifc_banks_banks_rf_0_D_OUT_1<1>) INITSTATE
+   has been changed from 0000000B to BBBBBBBB because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_2_rt_ifc_banks_banks_rf_1/Mram_arr1" (output
+   signal=net_routers_routeTable_2_rt_ifc_banks_banks_rf_1_D_OUT_1<0>) INITSTATE
+   has been changed from 0000000A to AAAAAAAA because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_2_rt_ifc_banks_banks_rf_1/Mram_arr2" (output
+   signal=net_routers_routeTable_2_rt_ifc_banks_banks_rf_1_D_OUT_1<1>) INITSTATE
+   has been changed from 0000000B to BBBBBBBB because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_2_rt_ifc_banks_banks_rf_4/Mram_arr1" (output
+   signal=net_routers_routeTable_2_rt_ifc_banks_banks_rf_4_D_OUT_1<0>) INITSTATE
+   has been changed from 0000000A to AAAAAAAA because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:MapLib:825 - RAM32X1D symbol
+   "net_routers_routeTable_2_rt_ifc_banks_banks_rf_4/Mram_arr2" (output
+   signal=net_routers_routeTable_2_rt_ifc_banks_banks_rf_4_D_OUT_1<1>) INITSTATE
+   has been changed from 0000000B to BBBBBBBB because pins A2, A3, and A4 are
+   driven by GND. These pins have been connected to VCC instead, in order to
+   relieve routing congestion.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.950 Volts. (default - Range: 0.950 to
+   1.050 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   2 block(s) optimized away
+
+Section 5 - Removed Logic
+-------------------------
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CLK                                | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| EN_recv_ports_0_putNonFullVCs      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| EN_recv_ports_1_putNonFullVCs      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| EN_recv_ports_2_putNonFullVCs      | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| EN_send_ports_0_putFlit            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| EN_send_ports_1_putFlit            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| EN_send_ports_2_putFlit            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| RST_N                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| in_ports_1_2_getNonFullVCs         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| in_ports_2_1_getNonFullVCs         | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| out_ports_1_4_getNonFullVCs        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| out_ports_2_3_getNonFullVCs        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| recv_ports_0_getFlit<0>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<1>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<2>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<3>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<4>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<5>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<6>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<7>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<8>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<9>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<10>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<11>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<12>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<13>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<14>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<15>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<16>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<17>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<18>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<19>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_getFlit<20>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_0_putNonFullVCs_nonFull | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| VCs<0>                             |                  |           |                      |       |          |      |              |          |          |
+| recv_ports_1_getFlit<0>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<1>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<2>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<3>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<4>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<5>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<6>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<7>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<8>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<9>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<10>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<11>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<12>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<13>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<14>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<15>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<16>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<17>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<18>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<19>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_getFlit<20>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_1_putNonFullVCs_nonFull | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| VCs<0>                             |                  |           |                      |       |          |      |              |          |          |
+| recv_ports_2_getFlit<0>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<1>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<2>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<3>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<4>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<5>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<6>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<7>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<8>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<9>            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<10>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<11>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<12>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<13>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<14>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<15>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<16>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<17>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<18>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<19>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_getFlit<20>           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_2_putNonFullVCs_nonFull | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| VCs<0>                             |                  |           |                      |       |          |      |              |          |          |
+| recv_ports_info_0_getRecvPortID<0> | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_info_0_getRecvPortID<1> | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_info_1_getRecvPortID<0> | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_info_1_getRecvPortID<1> | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_info_2_getRecvPortID<0> | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| recv_ports_info_2_getRecvPortID<1> | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| send_ports_0_getNonFullVCs<0>      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| send_ports_0_getNonFullVCs<1>      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| send_ports_0_putFlit_flit_in<0>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<1>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<2>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<3>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<4>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<5>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<6>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<7>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<8>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<9>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<10>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<11>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<12>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<13>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<14>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<15>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<16>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<17>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<18>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<19>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_0_putFlit_flit_in<20>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_getNonFullVCs<0>      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| send_ports_1_getNonFullVCs<1>      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| send_ports_1_putFlit_flit_in<0>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<1>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<2>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<3>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<4>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<5>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<6>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<7>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<8>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<9>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<10>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<11>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<12>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<13>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<14>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<15>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<16>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<17>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<18>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<19>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_1_putFlit_flit_in<20>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_getNonFullVCs<0>      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| send_ports_2_getNonFullVCs<1>      | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| send_ports_2_putFlit_flit_in<0>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<1>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<2>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<3>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<4>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<5>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<6>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<7>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<8>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<9>    | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<10>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<11>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<12>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<13>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<14>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<15>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<16>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<17>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<18>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<19>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| send_ports_2_putFlit_flit_in<20>   | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ser_in_1_2                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ser_in_2_1                         | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| ser_out_1_4                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| ser_out_2_3                        | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

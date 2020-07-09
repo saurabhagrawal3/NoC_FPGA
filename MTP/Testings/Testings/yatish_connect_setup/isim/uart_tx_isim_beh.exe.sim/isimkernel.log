@@ -1,0 +1,28 @@
+Command line:
+   uart_tx_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  39277
+
+Wed Oct  1 15:26:30 2014
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 189.202 Meg
+
+ Total Signals          : 19
+ Total Nets             : 36
+ Total Signal Drivers   : 8
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 146
+
+ Total Simulation Time: 0.48 sec
+
+ Current Memory Usage: 264.704 Meg
+
+Wed Oct  1 16:38:31 2014
+

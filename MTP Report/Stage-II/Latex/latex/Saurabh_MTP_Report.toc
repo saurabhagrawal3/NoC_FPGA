@@ -1,0 +1,71 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Dissertation Objectives}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Why is NoC used and why do we need its partitioning?}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Work Flow}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Report Organization}{3}{section.1.4}
+\contentsline {chapter}{\numberline {2}Network on Chip (NoC)}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Overview}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}NoC Design methodology }{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}CONNECT for network generation}{8}{section.2.3}
+\contentsline {section}{\numberline {2.4}NoC Performance Parameters}{10}{section.2.4}
+\contentsline {section}{\numberline {2.5}Test Cases}{11}{section.2.5}
+\contentsline {chapter}{\numberline {3}Partitioning the Network}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}NoC partitioning}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}Automated partitioning script}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Router Details}{14}{section.3.4}
+\contentsline {section}{\numberline {3.5}Example of data route between router ports}{15}{section.3.5}
+\contentsline {section}{\numberline {3.6}NoC partitioning using automated methods}{16}{section.3.6}
+\contentsline {section}{\numberline {3.7}Mesh 2 $\times $ 2 NoC Partitioning with Quasi-SERDES Link module Instantiation}{17}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Application Node}{17}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Test Cases}{18}{subsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.2.1}Case I:}{18}{subsubsection.3.7.2.1}
+\contentsline {subsubsection}{\numberline {3.7.2.2}Case II:}{18}{subsubsection.3.7.2.2}
+\contentsline {subsubsection}{\numberline {3.7.2.3}Case III:}{19}{subsubsection.3.7.2.3}
+\contentsline {chapter}{\numberline {4}Xilinx Aurora 8B10B IP Core for high speed GTP interface}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}Overview}{20}{section.4.1}
+\contentsline {section}{\numberline {4.2}Our Approach}{21}{section.4.2}
+\contentsline {section}{\numberline {4.3}Simulation Result}{22}{section.4.3}
+\contentsline {section}{\numberline {4.4}Advantages and Disadvantages discovered in usage of Aurora 8B10B}{23}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Advantages:}{23}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Disadvantages:}{23}{subsection.4.4.2}
+\contentsline {chapter}{\numberline {5}A Quasi-SERDES link Module}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}Features}{25}{section.5.2}
+\contentsline {section}{\numberline {5.3}Working Description}{26}{section.5.3}
+\contentsline {section}{\numberline {5.4}Performance Parameters}{27}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Data-rate calculation:}{28}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}Simulation Results}{28}{section.5.5}
+\contentsline {section}{\numberline {5.6}Implementation Results}{29}{section.5.6}
+\contentsline {section}{\numberline {5.7}Limitations and improvements}{29}{section.5.7}
+\contentsline {chapter}{\numberline {6}Theoretical Background: LDPC Construction}{30}{chapter.6}
+\contentsline {section}{\numberline {6.1}LDPC Construction}{30}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Parameters of PG LDPC Code}{31}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Parity-check Matrix}{31}{subsection.6.1.2}
+\contentsline {chapter}{\numberline {7}PG LDPC (7,3) Implementation using NoC}{33}{chapter.7}
+\contentsline {section}{\numberline {7.1}Implementation Details}{33}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Bit-node implementation}{33}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}System level implementation and comparison of PG-LDPC on an \textit {partitioned} and \textit {un-partitioned} NoC}{37}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Compilation Results}{37}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Simulation Readings and Comparison}{37}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Synthesis Report and Comparison}{37}{subsection.7.2.2}
+\contentsline {chapter}{\numberline {8}Independent platform for Hardware/Software Co-design Applications}{39}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{39}{section.8.1}
+\contentsline {section}{\numberline {8.2}Features of Raspberry Pi and DE0 Nano}{39}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Raspberry Pi}{39}{subsection.8.2.1}
+\contentsline {section}{\numberline {8.3}Implementation of Bezier interpolation on Raspberry Pi and DE0 Nano}{40}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Brief introduction to the Verilog design}{40}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Brief introduction about Raspberry Pi and DE0 Nano interfacing:}{41}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}Raspberry Pi - FPGA for JTAG interface}{42}{section.8.4}
+\contentsline {section}{\numberline {8.5}Motivation and Future Scope of using Raspberry Pi-FPGA Platform}{43}{section.8.5}
+\contentsline {chapter}{\numberline {9}Conclusion and Future Scope}{44}{chapter.9}
+\contentsline {section}{\numberline {9.1}Conclusion}{44}{section.9.1}
+\contentsline {section}{\numberline {9.2}Future Scope}{44}{section.9.2}
+\contentsline {chapter}{\numberline {A}Appendix}{47}{chapter.1}
+\contentsline {section}{\numberline {A.1}Customizing the Aurora Core}{47}{section.1.1}
+\contentsline {section}{\numberline {A.2}CONNECT NoC generator}{49}{section.1.2}
+\contentsline {section}{\numberline {A.3}Partitioned Network with Aurora 8B10B IP: Project Directory Structure}{50}{section.1.3}
+\contentsline {section}{\numberline {A.4}Python code for NoC Partitioning}{52}{section.1.4}
+\contentsline {section}{\numberline {A.5}Quasi-SERDES Link Module Verilog HDL}{62}{section.1.5}
+\contentsline {section}{\numberline {A.6}Top Level NoC after partitioning}{65}{section.1.6}
+\contentsline {chapter}{Bibliography}{68}{lstnumber.-11.121}

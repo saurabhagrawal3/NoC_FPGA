@@ -1,0 +1,47 @@
+% Chapter 1
+\thispagestyle{empty}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\chapter{Introduction}
+\label{chapter1}
+
+%--------------------------------------------------------------------------
+
+\section {Dissertation Objectives}
+The following are the objectives of this work:
+
+\begin{enumerate} 
+	\item{Investigation of communication interface links in Multi FPGA network of chips.}
+	\item{Development of partial serial communication link module compatible with Connect NoC.}
+	\item{Automated Network-of-Chip (NoC) partitioning.}
+	\item{Investigation and development of stand-alone system for FPGA / CPLD programming and support for hardware software co-design application using Raspberry Pi.}
+\end{enumerate}
+
+
+\section{Why is NoC used and why do we need its partitioning?} 
+\hspace{5mm}In a single chip, many-core processors are integrated for various application. In next-generation multi-core processor unit needs may arise integration of large numbers of processors, memory devices and other peripheral. The trade-off is between high latency, less complexity-shared bus communication and lower latency, higher complexity point-to-point interconnection, Network on Chip (NoC) will serve as a good alternative for implementation of such multi processor system providing an application independent inter/intra chip communication infrastructure. The selection of NoC is critical in any design\cite{DesignReuse}. CONNECT NoC, a web based synthesizable RTL NoC generator used in this project work.
+ 
+This CONNECT NoC provides communication infrastructure between different processing elements (PE). Routing congestion and routing path is taken care by NoC. Only one network interface per processing element is required for the system. Hence, using the NoC for interconnecting PEs, number of interconnects within particular region of FPGA can be reduced by a large factor along side providing a systematic data routing. When considering implementation of application on multi FPGA systems NoC provides a number of benefits like reduced number of interconnections, a scalable design, an interconnect infrastructure independent of application and also isolation from the hardware on which its implemented. Therefore, when multi FPGA systems is under consideration the best way forward is to realize and integrate the application on NoC and partition the NoC instead of application partitioning. An application to give an example is projective geometry low density parity check (PG-LDPC) in Shaishav’s M-Tech project work or hardware acceleration of boolean matrix vector multiplication (BMVM).
+
+\section {Work Flow}
+
+Initially, we started exploring different high speed communication interface between two FPGA like Xilinx Aurora 8B10B IP Core, RapidIO, Altera's SerialIO mega function. We tested Aurora 8B10B on Virtex V, the test was successful for establishing Aurora links between two Virtex V and exchanging data between them. Aurora 8B10B protocol needs specialized resources on FPGA call Gigabyte Transceiver Pairs (GTP) tiles which presented as a limitation for a generalized use. Also each Virtex V has limited number of GTP links which will again limit the number of interconnecting devices. Studying the data sheets we realized GPIO pins on-board can be used to work at large enough frequency in the range of 400MHz. But 400MHz is still slow for serial communication. But when a partially serial links in established like a 8 bit interfacing links which is capable of operating at 400MHz will increase the data rates by a factor of 8. So we started developing a partially serial interfacing links. The input to the link is n bit and the link transfer 8-bits packets in one clock cycle. Therefore it transfers n bits in n/8 cycles. The module is discussed in detail in chapter 4.\\
+
+After establishing this partially serial interfacing links between FPGAs the next part was to automate the NoC partitioning. We used python scripts to partition a fully synthesizable partitioned NoC with the integrated this partially serial communication links exposed to NoC's top level module. This automated partitioning process eases the manual effort of network partitioning. Now this partitioned network is ready for application designer with easy to plug interface links between FPGAs. The partitioned NoC when wired up with an application like LDPC decoder or BMVM hardware acceleration can be used to implement over multi FPGA system without caring much about the application partitioning as different processing elements of the application connected to different nodes of this NoC communicate with each other on this partitioned NoC.\\
+
+Extending the above development with a hardware software co-design application using Raspberry Pi enhances the performances exploiting the advantages of hardware and software. Raspberry Pi is a very powerful pocket computer that can be used for standalone remote configuration of FPGAs over the internet and also can be used as a software engine in the application set-up. Details of this implementation is discussed in Chapter 8.
+\newpage
+\section{Report Organization}
+\begin{enumerate} 
+	\item{\textbf{Chapter \ref{chapter1}} Introduction to the thesis work and gives the detailed work flow of the work done}
+	\item{\textbf{Chapter \ref{chapter2}} Describes Network-on-Chip architectures and topologies, the methods of NoC generations and also explains the working of a NoC.}
+	\item{\textbf{Chapter \ref{chapter3}} Describes the automated NoC partitioning, key point of care for before partitioning and gives details of a router module used in NoC. Concepts and know how earlier explained by Yatish Turakhia in his DDP thesis work \ref{yatish_ddp}}
+	\item{\textbf{Chapter \ref{chapter4}} Next we discuss details of a Xilinx High-speed communication IP core Aurora 8B10B. Which uses Gigabyte Transceiver Pair Tiles of Virtex V or higher FPGA for setting up the serial link interface between multiple FPGAs. A few application based advantages and limitations are also discussed which leads the discussion to the development a partial serializer / de-serializer module.}
+	\item{\textbf{Chapter \ref{chapter5}} Discusses the design details of a partial serializer / de-serializer communication link module designed for communication between network routers and its implementation on Multi FPGA system.}
+	\item{\textbf{Chapter \ref{chapter6}} In this chapter we have discussed the theory of LDPC decoding and how to integrate the application with NoC for its implementation.}
+	\item{\textbf{Chapter \ref{chapter7}}  This chapter uses all the modules and concepts described in all the above chapter for implementing PG-LDPC utilizing the partitioned NoC and un-partitioned NoC architecture and gives the simulation and implementation results obtained for Mesh 4 $\times$ 4 type NoC.}
+	\item{\textbf{Chapter \ref{chapter8}} In this Chapter we have shifted from the above line of work to give details of the software / hardware co-design implementation using Raspberry Pi and FPGA development platforms, methods of remote FPGA configuration and also gives details of implementation of Bezier interpolation using Raspberry Pi and DE0 Nano.}
+	\item{\textbf{Chapter \ref{chapter9}} This chapter concludes the thesis work and gives a scalable and a repeatable PCB design strategy that will be useful for implementation of multi-FPGA NoC implementation and also give a few dos and don't for for high frequency PCB design.}	
+	\item{\textbf{Appendix \ref{appe}} Give details tools \ref{coregen}, CONNECT NoC generation methods \ref{CONNECT}, Partitioned NoC integrated with Aurora 8B10B IP core directory structure \ref{CONNECTAurora}, python codes \ref{pythonCode}, partial serializer de-serializer Quasi-SERDES link module Verilog design \ref{serdes}, NoC top level Module \ref{NoCTop}}
+	\item{\textbf{Bibliography} At last we thanks all the authors for giving us the insight of their work that were used actively in our project implementation.}
+\end{enumerate}

@@ -1,0 +1,55 @@
+Running: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /root/Desktop/MTP/Testings/Testings/yatish_connect_setup/CONNECT_testbench_sample_peek_isim_beh.exe -prj /root/Desktop/MTP/Testings/Testings/yatish_connect_setup/CONNECT_testbench_sample_peek_beh.prj work.CONNECT_testbench_sample_peek work.glbl 
+ISim P.15xf (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/module_gen_grant_carry.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/RegFile_1port.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkRouterOutputArbitersRoundRobin.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkRouterInputArbitersRoundRobin.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/module_outport_encoder.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkSepRouterAllocator.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkOutPortFIFO.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkInputQueue.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/uart_tx.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/uart_rx.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/RegFileLoadSyn.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkIQRouterCoreSimple.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/baud_gen.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkNetworkSimple_1.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkNetworkSimple_0.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/myNetworkAurora.v" into library work
+Analyzing Verilog file "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/testbench_sample_peek.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/testbench_sample_peek.v" Line 212: Port recv_ports_info_0_getRecvPortID is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 95824 KB
+Fuse CPU Usage: 1120 ms
+Compiling module baud_gen
+Compiling module uart_rx
+Compiling module uart_tx
+Compiling module RegFileLoadSyn(file="../../../YA...
+Compiling module RegFile_1port(data_width=32'b010...
+Compiling module mkInputQueue
+Compiling module mkOutPortFIFO
+Compiling module module_gen_grant_carry
+Compiling module mkRouterInputArbitersRoundRobin
+Compiling module mkRouterOutputArbitersRoundRobin
+Compiling module mkSepRouterAllocator
+Compiling module module_outport_encoder
+Compiling module mkIQRouterCoreSimple
+Compiling module mkNetworkSimple_1
+Compiling module RegFileLoadSyn(file="../../../YA...
+Compiling module RegFileLoadSyn(file="../../../YA...
+Compiling module RegFileLoadSyn(file="../../../YA...
+Compiling module mkNetworkSimple_0
+Compiling module myNetworkAurora
+Compiling module CONNECT_testbench_sample_peek
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 21 Verilog Units
+Built simulation executable /root/Desktop/MTP/Testings/Testings/yatish_connect_setup/CONNECT_testbench_sample_peek_isim_beh.exe
+Fuse Memory Usage: 1191076 KB
+Fuse CPU Usage: 1620 ms
+GCC CPU Usage: 9910 ms

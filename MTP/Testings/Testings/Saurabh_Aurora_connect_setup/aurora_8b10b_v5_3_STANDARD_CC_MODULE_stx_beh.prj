@@ -1,0 +1,2 @@
+verilog isim_temp "Codes/example_design/cc_manager/aurora_8b10b_v5_3_standard_cc_module.v"
+verilog isim_temp "/opt/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,24 @@
+\BOOKMARK [2][]{Outline0.2}{Introduction}{}% 1
+\BOOKMARK [3][]{Outline0.2.1.5}{Working Flow}{Outline0.2}% 2
+\BOOKMARK [3][]{Outline0.2.2.6}{Why is NoC used and why do we need its partitioning?}{Outline0.2}% 3
+\BOOKMARK [3][]{Outline0.2.3.8}{NoC Architecture}{Outline0.2}% 4
+\BOOKMARK [3][]{Outline0.2.4.14}{CONNECT NoC Tool}{Outline0.2}% 5
+\BOOKMARK [3][]{Outline0.2.5.15}{Flit- Structure and NoC Parameters}{Outline0.2}% 6
+\BOOKMARK [2][]{Outline0.3}{Automated NoC Partitioning}{}% 7
+\BOOKMARK [3][]{Outline0.3.1.16}{Router Details}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.2.17}{Partitioning Links}{Outline0.3}% 9
+\BOOKMARK [3][]{Outline0.3.3.18}{Partitioning Script}{Outline0.3}% 10
+\BOOKMARK [2][]{Outline0.4}{High Speed Serial Interface Integration with Partitioned NoC}{}% 11
+\BOOKMARK [3][]{Outline0.4.1.19}{Block Schematic}{Outline0.4}% 12
+\BOOKMARK [3][]{Outline0.4.2.20}{Experimental Setup}{Outline0.4}% 13
+\BOOKMARK [3][]{Outline0.4.3.21}{Simulation Result}{Outline0.4}% 14
+\BOOKMARK [3][]{Outline0.4.4.23}{Advantages and Disadvantages}{Outline0.4}% 15
+\BOOKMARK [2][]{Outline0.5}{Quasi-SERDES Physical Link Module}{}% 16
+\BOOKMARK [3][]{Outline0.5.1.24}{Quasi-SERDES Physical Link Module Block Schematic}{Outline0.5}% 17
+\BOOKMARK [2][]{Outline0.6}{PG-LDPC \(7,3\) - Implementation on un-partitioned and partitioned NoC}{}% 18
+\BOOKMARK [3][]{Outline0.6.1.27}{Tanner Graph formation}{Outline0.6}% 19
+\BOOKMARK [3][]{Outline0.6.2.29}{Bit-Flipping Algorithm}{Outline0.6}% 20
+\BOOKMARK [3][]{Outline0.6.3.30}{PG-LDPC \(7,3\) Implementation using NoC}{Outline0.6}% 21
+\BOOKMARK [3][]{Outline0.6.4.31}{Results and Comparison}{Outline0.6}% 22
+\BOOKMARK [2][]{Outline0.7}{Independent platform for Hardware/Software Co-design Applications}{}% 23
+\BOOKMARK [3][]{Outline0.7.1.34}{Raspberry Pi and DE0 Nano}{Outline0.7}% 24

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork/delay/counter32.xst" -ofn "/root/Desktop/MTP/CustomNetwork/delay/counter32.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork/delay/counter32.xst" -ofn "/root/Desktop/MTP/CustomNetwork/delay/counter32.syr" 

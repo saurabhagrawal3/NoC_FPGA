@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/root/Desktop/MTP/PHY/phy/testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/testbench/read_req_received1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_req_received1</obj_property>
+      <obj_property name="ObjectShortName">read_req_received1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/write_ready_ack1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_ready_ack1</obj_property>
+      <obj_property name="ObjectShortName">write_ready_ack1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/input_data_from_router1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_data_from_router1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data_from_router1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/output_data_to_router1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_data_to_router1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data_to_router1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/input_data_from_router2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">input_data_from_router2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data_from_router2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/output_data_to_router2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_data_to_router2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data_to_router2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/read_ready1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_ready1</obj_property>
+      <obj_property name="ObjectShortName">read_ready1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/write_req_send1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_req_send1</obj_property>
+      <obj_property name="ObjectShortName">write_req_send1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/read_req_received2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_req_received2</obj_property>
+      <obj_property name="ObjectShortName">read_req_received2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/write_ready_ack2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_ready_ack2</obj_property>
+      <obj_property name="ObjectShortName">write_ready_ack2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/read_ready2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_ready2</obj_property>
+      <obj_property name="ObjectShortName">read_ready2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/write_req_send2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_req_send2</obj_property>
+      <obj_property name="ObjectShortName">write_req_send2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/serial_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">serial_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">serial_data_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/serial_data_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">serial_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">serial_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/enable_receive1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_receive1</obj_property>
+      <obj_property name="ObjectShortName">enable_receive1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/enable_send1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_send1</obj_property>
+      <obj_property name="ObjectShortName">enable_send1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/enable_receive2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_receive2</obj_property>
+      <obj_property name="ObjectShortName">enable_receive2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/enable_send2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_send2</obj_property>
+      <obj_property name="ObjectShortName">enable_send2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/HalfClkPeriod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HalfClkPeriod[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HalfClkPeriod[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ClkPeriod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ClkPeriod[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ClkPeriod[31:0]</obj_property>
+   </wvobject>
+</wave_config>

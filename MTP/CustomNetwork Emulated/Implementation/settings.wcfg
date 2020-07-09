@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/root/Desktop/MTP/CustomNetwork/Implementation/Custom_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="Custom_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/Custom_TB/reset_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/reference_clk_1_p_r" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reference_clk_1_p_r</obj_property>
+      <obj_property name="ObjectShortName">reference_clk_1_p_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/channel_up_1_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">channel_up_1_i</obj_property>
+      <obj_property name="ObjectShortName">channel_up_1_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/channel_up_2_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">channel_up_2_i</obj_property>
+      <obj_property name="ObjectShortName">channel_up_2_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="group80" type="group">
+      <obj_property name="label">Tx-Rx</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/Custom_TB/txp_4_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">txp_4_i</obj_property>
+         <obj_property name="ObjectShortName">txp_4_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/rxp_1_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rxp_1_i</obj_property>
+         <obj_property name="ObjectShortName">rxp_1_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/txp_1_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">txp_1_i</obj_property>
+         <obj_property name="ObjectShortName">txp_1_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/rxp_4_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rxp_4_i</obj_property>
+         <obj_property name="ObjectShortName">rxp_4_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/txp_2_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">txp_2_i</obj_property>
+         <obj_property name="ObjectShortName">txp_2_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/rxp_3_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rxp_3_i</obj_property>
+         <obj_property name="ObjectShortName">rxp_3_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/txp_3_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">txp_3_i</obj_property>
+         <obj_property name="ObjectShortName">txp_3_i</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/rxp_2_i" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">rxp_2_i</obj_property>
+         <obj_property name="ObjectShortName">rxp_2_i</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/send_flit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_flit[0:3]</obj_property>
+      <obj_property name="ObjectShortName">send_flit[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/dest" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dest[2:0]</obj_property>
+      <obj_property name="ObjectShortName">dest[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flit_in[0:3,15:0]</obj_property>
+      <obj_property name="ObjectShortName">flit_in[0:3,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/Custom_TB/flit_in[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[0,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/flit_in[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,15:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[1,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/flit_in[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,15:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[2,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/flit_in[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,15:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[3,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/flit_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flit_out[0:3,15:0]</obj_property>
+      <obj_property name="ObjectShortName">flit_out[0:3,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/Custom_TB/flit_out[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,15:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[0,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/flit_out[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,15:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[1,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/flit_out[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,15:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[2,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Custom_TB/flit_out[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,15:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[3,15:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Custom_TB/cycle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

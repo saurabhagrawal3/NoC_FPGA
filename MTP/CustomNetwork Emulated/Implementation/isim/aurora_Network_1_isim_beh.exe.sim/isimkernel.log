@@ -1,0 +1,28 @@
+Command line:
+   aurora_Network_1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52598
+
+Tue May 12 13:21:18 2015
+
+
+ Elaboration Time: 2.25 sec
+
+ Current Memory Usage: 552.37 Meg
+
+ Total Signals          : 100794
+ Total Nets             : 71910
+ Total Signal Drivers   : 88904
+ Total Blocks           : 13569
+ Total Primitive Blocks : 9020
+ Total Processes        : 94910
+ Total Traceable Variables  : 7625
+ Total Scalar Nets and Variables : 207972
+
+ Total Simulation Time: 3.11 sec
+
+ Current Memory Usage: 640.512 Meg
+
+Tue May 12 13:21:46 2015
+

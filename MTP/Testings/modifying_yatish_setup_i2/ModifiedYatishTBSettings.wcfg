@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/root/Desktop/MTP/Testings/modifying_yatish_setup_i2/aurora_network_1Router_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CONNECT_testbench_sample_peek" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="divider49" type="divider">
+      <obj_property name="label">TB</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/user_clk_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">user_clk_i</obj_property>
+      <obj_property name="ObjectShortName">user_clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider51" type="divider">
+      <obj_property name="label">DUT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/INIT_CLK1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">INIT_CLK1</obj_property>
+      <obj_property name="ObjectShortName">INIT_CLK1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/INIT_CLK2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">INIT_CLK2</obj_property>
+      <obj_property name="ObjectShortName">INIT_CLK2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/RESET" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/GTPD5_P1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GTPD5_P1</obj_property>
+      <obj_property name="ObjectShortName">GTPD5_P1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/GTPD5_N1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GTPD5_N1</obj_property>
+      <obj_property name="ObjectShortName">GTPD5_N1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/GTPD5_P2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GTPD5_P2</obj_property>
+      <obj_property name="ObjectShortName">GTPD5_P2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/GTPD5_N2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">GTPD5_N2</obj_property>
+      <obj_property name="ObjectShortName">GTPD5_N2</obj_property>
+   </wvobject>
+   <wvobject fp_name="group159" type="group">
+      <obj_property name="label">mkSimpleNetwork_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/INIT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INIT_CLK</obj_property>
+         <obj_property name="ObjectShortName">INIT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/GTPD5_P" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5_P</obj_property>
+         <obj_property name="ObjectShortName">GTPD5_P</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/GTPD5_N" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5_N</obj_property>
+         <obj_property name="ObjectShortName">GTPD5_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">MyNetworkSimple_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/INIT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INIT_CLK</obj_property>
+         <obj_property name="ObjectShortName">INIT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/GTPD5_P" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5_P</obj_property>
+         <obj_property name="ObjectShortName">GTPD5_P</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/GTPD5_N" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5_N</obj_property>
+         <obj_property name="ObjectShortName">GTPD5_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">clock_module_i_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/clock_module_i/GT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_CLK</obj_property>
+         <obj_property name="ObjectShortName">GT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/clock_module_i/GT_CLK_LOCKED" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_CLK_LOCKED</obj_property>
+         <obj_property name="ObjectShortName">GT_CLK_LOCKED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/clock_module_i/USER_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">USER_CLK</obj_property>
+         <obj_property name="ObjectShortName">USER_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/clock_module_i/SYNC_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SYNC_CLK</obj_property>
+         <obj_property name="ObjectShortName">SYNC_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/clock_module_i/PLL_NOT_LOCKED" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PLL_NOT_LOCKED</obj_property>
+         <obj_property name="ObjectShortName">PLL_NOT_LOCKED</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">reset_logic_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/USER_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">USER_CLK</obj_property>
+         <obj_property name="ObjectShortName">USER_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/INIT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INIT_CLK</obj_property>
+         <obj_property name="ObjectShortName">INIT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/GT_RESET_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GT_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/TX_LOCK_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">TX_LOCK_IN</obj_property>
+         <obj_property name="ObjectShortName">TX_LOCK_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/PLL_NOT_LOCKED" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PLL_NOT_LOCKED</obj_property>
+         <obj_property name="ObjectShortName">PLL_NOT_LOCKED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/TX_LOCK_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">TX_LOCK_OUT</obj_property>
+         <obj_property name="ObjectShortName">TX_LOCK_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/SYSTEM_RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SYSTEM_RESET</obj_property>
+         <obj_property name="ObjectShortName">SYSTEM_RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/reset_logic_i/GT_RESET_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_RESET_OUT</obj_property>
+         <obj_property name="ObjectShortName">GT_RESET_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">Aurora_module_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_1/GTPD5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5</obj_property>
+         <obj_property name="ObjectShortName">GTPD5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_1/USER_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">USER_CLK</obj_property>
+         <obj_property name="ObjectShortName">USER_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_1/SYNC_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SYNC_CLK</obj_property>
+         <obj_property name="ObjectShortName">SYNC_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_1/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_1/GT_RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_RESET</obj_property>
+         <obj_property name="ObjectShortName">GT_RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">Aurora_module_2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_2/GTPD5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5</obj_property>
+         <obj_property name="ObjectShortName">GTPD5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_2/USER_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">USER_CLK</obj_property>
+         <obj_property name="ObjectShortName">USER_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_2/SYNC_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SYNC_CLK</obj_property>
+         <obj_property name="ObjectShortName">SYNC_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_2/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_2/GT_RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_RESET</obj_property>
+         <obj_property name="ObjectShortName">GT_RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">Network_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/network_router_1/CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">CLK</obj_property>
+         <obj_property name="ObjectShortName">CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/network_router_1/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_2/TX_OUT_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TX_OUT_CLK</obj_property>
+      <obj_property name="ObjectShortName">TX_OUT_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/aurora_module_i_router_1/TX_OUT_CLK" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">TX_OUT_CLK</obj_property>
+      <obj_property name="ObjectShortName">TX_OUT_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_1/IBUFDS/O" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">O</obj_property>
+      <obj_property name="ObjectShortName">O</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/IBUFDS/O" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">O</obj_property>
+      <obj_property name="ObjectShortName">O</obj_property>
+   </wvobject>
+   <wvobject fp_name="group160" type="group">
+      <obj_property name="label">mkSimpleNetwork_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/INIT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INIT_CLK</obj_property>
+         <obj_property name="ObjectShortName">INIT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/GTPD5_P" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5_P</obj_property>
+         <obj_property name="ObjectShortName">GTPD5_P</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/GTPD5_N" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5_N</obj_property>
+         <obj_property name="ObjectShortName">GTPD5_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">MyNetworkSimple_0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/INIT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INIT_CLK</obj_property>
+         <obj_property name="ObjectShortName">INIT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/GTPD5_P" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5_P</obj_property>
+         <obj_property name="ObjectShortName">GTPD5_P</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/GTPD5_N" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5_N</obj_property>
+         <obj_property name="ObjectShortName">GTPD5_N</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">Clock_module_0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/clock_module_i/GT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_CLK</obj_property>
+         <obj_property name="ObjectShortName">GT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/clock_module_i/GT_CLK_LOCKED" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_CLK_LOCKED</obj_property>
+         <obj_property name="ObjectShortName">GT_CLK_LOCKED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/clock_module_i/USER_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">USER_CLK</obj_property>
+         <obj_property name="ObjectShortName">USER_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/clock_module_i/SYNC_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SYNC_CLK</obj_property>
+         <obj_property name="ObjectShortName">SYNC_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/clock_module_i/PLL_NOT_LOCKED" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PLL_NOT_LOCKED</obj_property>
+         <obj_property name="ObjectShortName">PLL_NOT_LOCKED</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">reset_logic_0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/USER_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">USER_CLK</obj_property>
+         <obj_property name="ObjectShortName">USER_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/INIT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">INIT_CLK</obj_property>
+         <obj_property name="ObjectShortName">INIT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/GT_RESET_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_RESET_IN</obj_property>
+         <obj_property name="ObjectShortName">GT_RESET_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/TX_LOCK_IN" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">TX_LOCK_IN</obj_property>
+         <obj_property name="ObjectShortName">TX_LOCK_IN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/PLL_NOT_LOCKED" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">PLL_NOT_LOCKED</obj_property>
+         <obj_property name="ObjectShortName">PLL_NOT_LOCKED</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/TX_LOCK_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">TX_LOCK_OUT</obj_property>
+         <obj_property name="ObjectShortName">TX_LOCK_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/SYSTEM_RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SYSTEM_RESET</obj_property>
+         <obj_property name="ObjectShortName">SYSTEM_RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/reset_logic_i/GT_RESET_OUT" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_RESET_OUT</obj_property>
+         <obj_property name="ObjectShortName">GT_RESET_OUT</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">aurora_1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_1/GTPD5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5</obj_property>
+         <obj_property name="ObjectShortName">GTPD5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_1/GT_RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_RESET</obj_property>
+         <obj_property name="ObjectShortName">GT_RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_1/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_1/SYNC_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SYNC_CLK</obj_property>
+         <obj_property name="ObjectShortName">SYNC_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_1/USER_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">USER_CLK</obj_property>
+         <obj_property name="ObjectShortName">USER_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_2/TX_OUT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">TX_OUT_CLK</obj_property>
+         <obj_property name="ObjectShortName">TX_OUT_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider60" type="divider">
+         <obj_property name="label">aurora_2</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="BkColor">128 128 255</obj_property>
+         <obj_property name="TextColor">230 230 230</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_2/GTPD5" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GTPD5</obj_property>
+         <obj_property name="ObjectShortName">GTPD5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_2/USER_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">USER_CLK</obj_property>
+         <obj_property name="ObjectShortName">USER_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_2/SYNC_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">SYNC_CLK</obj_property>
+         <obj_property name="ObjectShortName">SYNC_CLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_2/RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">RESET</obj_property>
+         <obj_property name="ObjectShortName">RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_2/GT_RESET" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">GT_RESET</obj_property>
+         <obj_property name="ObjectShortName">GT_RESET</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/aurora_module_i_router_1/TX_OUT_CLK" type="logic" db_ref_id="1">
+         <obj_property name="ElementShortName">TX_OUT_CLK</obj_property>
+         <obj_property name="ObjectShortName">TX_OUT_CLK</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

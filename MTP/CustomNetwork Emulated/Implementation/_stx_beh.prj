@@ -1,0 +1,2 @@
+verilog isim_temp "../aurora_Network_2.v"
+verilog isim_temp "/opt/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v"

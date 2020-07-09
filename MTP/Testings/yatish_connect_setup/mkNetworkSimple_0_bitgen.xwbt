@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.ncd
+OUTFILE=/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.bit
+FAMILY=Virtex5
+PART=xc5vlx110t-1ff1136
+WORKINGDIR=/root/Desktop/MTP/Testings/yatish_setup
+LICENSE=ISE
+USER_INFO=203015281_203016512_208266797_821

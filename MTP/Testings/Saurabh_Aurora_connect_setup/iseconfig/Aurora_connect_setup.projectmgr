@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Aurora_connect_setup" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc5vlx110t-1ff1136</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000216000000020000000100000000000000000200000064ffffffff000000810000000300000002000002160000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>xc5vlx110t-1ff1136</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000226000000010000000100000000000000000000000064ffffffff000000810000000000000001000002260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000074c000000040101000100000000000000000000000064ffffffff0000008100000000000000040000005100000001000000000000002900000001000000000000008400000001000000000000064e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>aurora_8b10b_v5_3.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000125000000010001000100000000000000000000000064ffffffff000000810000000000000001000001250000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_0 - aurora_network_3Router</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_0 - aurora_network_3Router/aurora_module_i_router_1 - aurora_8b10b_v5_3</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_0 - aurora_network_3Router/aurora_module_i_router_2 - aurora_8b10b_v5_3</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_0 - aurora_network_3Router/network_router_3 - mkNetworkSimple_0</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_1 - aurora_8b10b_v5_3</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_1 - aurora_8b10b_v5_3/aurora_lane_0_i - aurora_8b10b_v5_3_AURORA_LANE</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_1 - aurora_8b10b_v5_3/global_logic_i - aurora_8b10b_v5_3_GLOBAL_LOGIC</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_1 - aurora_8b10b_v5_3/gtp_wrapper_i - aurora_8b10b_v5_3_GTP_WRAPPER</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_1 - aurora_8b10b_v5_3/rx_ll_i - aurora_8b10b_v5_3_RX_LL</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_1 - aurora_8b10b_v5_3/tx_ll_i - aurora_8b10b_v5_3_TX_LL</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_2 - aurora_8b10b_v5_3</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_2 - aurora_8b10b_v5_3/aurora_lane_0_i - aurora_8b10b_v5_3_AURORA_LANE</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_2 - aurora_8b10b_v5_3/global_logic_i - aurora_8b10b_v5_3_GLOBAL_LOGIC</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_2 - aurora_8b10b_v5_3/gtp_wrapper_i - aurora_8b10b_v5_3_GTP_WRAPPER</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_2 - aurora_8b10b_v5_3/rx_ll_i - aurora_8b10b_v5_3_RX_LL</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_2 - aurora_8b10b_v5_3/tx_ll_i - aurora_8b10b_v5_3_TX_LL</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/network_router_1 - mkNetworkSimple_1</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/network_router_1 - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Saurabh_Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Saurabh_Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_0 - aurora_network_3Router/aurora_module_i_router_1 - aurora_8b10b_v5_3</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Saurabh_Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_0 - aurora_network_3Router/aurora_module_i_router_2 - aurora_8b10b_v5_3</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Saurabh_Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_0 - aurora_network_3Router/network_router_3 - mkNetworkSimple_0</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Saurabh_Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_1 - aurora_8b10b_v5_3</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Saurabh_Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/aurora_module_i_router_2 - aurora_8b10b_v5_3</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Saurabh_Aurora_connect_setup|Codes|CONNECT_testbench_sample_peek.v/dut - myNetworkAurora/myNetworkSimple_1 - aurora_network_1Router/network_router_1 - mkNetworkSimple_1</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_0 |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|mkNetworkSimple_0.v</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_0 |root|Desktop|MTP|Testings|Aurora_connect_setup|mkNetworkSimple_0.v</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_1 |root|Desktop|MTP|Testings|Aurora_connect_setup|Codes|mkNetworkSimple_1.v</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_1 |root|Desktop|MTP|Testings|Aurora_connect_setup|mkNetworkSimple_1.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>CONNECT_testbench_sample_peek (/root/Desktop/MTP/Testings/Saurabh_Aurora_connect_setup/Codes/CONNECT_testbench_sample_peek.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000228000000020000000000000000000000000200000064ffffffff000000810000000300000002000002280000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>CONNECT_testbench_sample_peek (/root/Desktop/MTP/Testings/Saurabh_Aurora_connect_setup/Codes/CONNECT_testbench_sample_peek.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000022a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000022a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000226000000010000000100000000000000000000000064ffffffff000000810000000000000001000002260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000022d000000bc01000000060100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

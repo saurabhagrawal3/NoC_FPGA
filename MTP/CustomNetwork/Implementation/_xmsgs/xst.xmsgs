@@ -1,0 +1,1232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../example_design/cc_manager/aurora_8b10b_v5_3_standard_cc_module.v</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../example_design/cc_manager/aurora_8b10b_v5_3_standard_cc_module.v</arg>&quot; line <arg fmt="%d" index="2">137</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../example_design/cc_manager/aurora_8b10b_v5_3_standard_cc_module.v</arg>&quot; line <arg fmt="%d" index="2">147</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../example_design/cc_manager/aurora_8b10b_v5_3_standard_cc_module.v</arg>&quot; line <arg fmt="%d" index="2">149</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../example_design/cc_manager/aurora_8b10b_v5_3_standard_cc_module.v</arg>&quot; line <arg fmt="%d" index="2">151</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_lane_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">251</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_lane_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">254</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_lane_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">255</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_lane_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">256</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_lane_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">257</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_gen.v</arg>&quot; line <arg fmt="%d" index="2">185</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_gen.v</arg>&quot; line <arg fmt="%d" index="2">186</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_gen.v</arg>&quot; line <arg fmt="%d" index="2">187</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_gen.v</arg>&quot; line <arg fmt="%d" index="2">188</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_gen.v</arg>&quot; line <arg fmt="%d" index="2">189</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_dec.v</arg>&quot; line <arg fmt="%d" index="2">222</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_dec.v</arg>&quot; line <arg fmt="%d" index="2">223</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_dec.v</arg>&quot; line <arg fmt="%d" index="2">224</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_dec.v</arg>&quot; line <arg fmt="%d" index="2">230</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_sym_dec.v</arg>&quot; line <arg fmt="%d" index="2">237</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">141</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">142</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">146</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">147</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">153</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">197</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">198</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">199</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">203</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_init_sm.v</arg>&quot; line <arg fmt="%d" index="2">204</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_idle_and_ver_gen.v</arg>&quot; line <arg fmt="%d" index="2">149</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_idle_and_ver_gen.v</arg>&quot; line <arg fmt="%d" index="2">181</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_idle_and_ver_gen.v</arg>&quot; line <arg fmt="%d" index="2">182</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_idle_and_ver_gen.v</arg>&quot; line <arg fmt="%d" index="2">183</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_idle_and_ver_gen.v</arg>&quot; line <arg fmt="%d" index="2">201</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">135</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">136</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">148</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">159</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_channel_err_detect.v</arg>&quot; line <arg fmt="%d" index="2">163</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_datapath.v</arg>&quot; line <arg fmt="%d" index="2">157</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_datapath.v</arg>&quot; line <arg fmt="%d" index="2">160</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_datapath.v</arg>&quot; line <arg fmt="%d" index="2">161</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_datapath.v</arg>&quot; line <arg fmt="%d" index="2">172</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_datapath.v</arg>&quot; line <arg fmt="%d" index="2">177</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_control.v</arg>&quot; line <arg fmt="%d" index="2">196</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_control.v</arg>&quot; line <arg fmt="%d" index="2">215</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_control.v</arg>&quot; line <arg fmt="%d" index="2">216</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_control.v</arg>&quot; line <arg fmt="%d" index="2">217</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_tx_ll_control.v</arg>&quot; line <arg fmt="%d" index="2">218</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_rx_ll_pdu_datapath.v</arg>&quot; line <arg fmt="%d" index="2">160</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_rx_ll_pdu_datapath.v</arg>&quot; line <arg fmt="%d" index="2">165</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_rx_ll_pdu_datapath.v</arg>&quot; line <arg fmt="%d" index="2">166</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_rx_ll_pdu_datapath.v</arg>&quot; line <arg fmt="%d" index="2">167</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="916" delta="new" >&quot;<arg fmt="%s" index="1">../src/aurora_8b10b_v5_3_rx_ll_pdu_datapath.v</arg>&quot; line <arg fmt="%d" index="2">172</arg>: Delay is ignored for synthesis.
+</msg>
+
+<msg type="warning" file="Xst" num="915" delta="new" >Message (<arg fmt="%d" index="1">916</arg>) is reported only 5 times for each module.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="new" >&quot;<arg fmt="%s" index="1">../3R_Custom/build/RegFileLoadSyn.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: reading initialization file &quot;<arg fmt="%s" index="3">customa7a54ec6eb873981e3716cfb5fb7eba1_8RTs_2VCs_8BD_10DW_SepIFRoundRobinAlloc_routing_1.hex</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2319" delta="new" >&quot;<arg fmt="%s" index="1">../3R_Custom/build/RegFileLoadSyn.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Signal <arg fmt="%s" index="3">arr</arg> in initial block is partially initialized. The initialization will be ignored.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="new" >&quot;<arg fmt="%s" index="1">../3R_Custom/build/RegFileLoadSyn.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: reading initialization file &quot;<arg fmt="%s" index="3">customa7a54ec6eb873981e3716cfb5fb7eba1_8RTs_2VCs_8BD_10DW_SepIFRoundRobinAlloc_routing_2.hex</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2319" delta="new" >&quot;<arg fmt="%s" index="1">../3R_Custom/build/RegFileLoadSyn.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Signal <arg fmt="%s" index="3">arr</arg> in initial block is partially initialized. The initialization will be ignored.
+</msg>
+
+<msg type="info" file="Xst" num="2546" delta="new" >&quot;<arg fmt="%s" index="1">../3R_Custom/build/RegFileLoadSyn.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: reading initialization file &quot;<arg fmt="%s" index="3">customa7a54ec6eb873981e3716cfb5fb7eba1_8RTs_2VCs_8BD_10DW_SepIFRoundRobinAlloc_routing_0.hex</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="2319" delta="new" >&quot;<arg fmt="%s" index="1">../3R_Custom/build/RegFileLoadSyn.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Signal <arg fmt="%s" index="3">arr</arg> in initial block is partially initialized. The initialization will be ignored.
+</msg>
+
+<msg type="warning" file="Xst" num="37" delta="new" >Detected unknown constraint/property &quot;<arg fmt="%s" index="1">TEMPLATE</arg>&quot;. This constraint/property is not supported by the current software release and will be ignored.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">CHANNEL_BOND_LOAD</arg>&gt; in unit &lt;<arg fmt="%s" index="2">aurora_8b10b_v5_3_CHBOND_COUNT_DEC</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">inPortVL</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">00</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">inPortVL_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">00</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">inPortVL_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">00</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">lockedVL</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">lockedVL_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">lockedVL_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_0</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_0_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_0_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_1_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_1_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_2_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">selectedIO_reg_2_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkIQRouterCoreSimple_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_0</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_0_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_0_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_1_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_1_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_2_1</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">as_inputArbGrants_reg_2_2</arg>&gt; in unit &lt;<arg fmt="%s" index="2">mkSepRouterAllocator_1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">PLL_NOT_LOCKED</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">RESET</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">outPortFIFO_ifc_fifo_empty_6_EQ_outPortFIFO_if_ETC___d82</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">WILL_FIRE_RL_outPortFIFO_ifc_fifo_continuousAssert</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">rst_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">clkout3_o</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">clkout2_o</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">txdata1_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">txdata0_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tied_to_vcc_vec_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">serialloopback1_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">serialloopback0_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rxenelecidleresetb_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rxelecidlereset1_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rxelecidlereset0_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rxelecidle1_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rxelecidle0_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rxdata1_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rxdata0_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">resetdone1_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">resetdone0_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">loopback1_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">loopback0_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CH_BOND_DONE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">GOT_A</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">CHANNEL_BOND_LOAD</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">WARN_CC</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">TX_REM</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">channel_full_c</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ab__h6941&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ab__h3361&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ab__h10521&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ab__h6941&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ab__h3361&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ab__h10521&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_cc_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">CHBONDDONE_OUT_unused</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">TXOUTCLK2_OUT</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">ENCHANSYNC_IN</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">CHBONDDONE_OUT</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">RXRECCLK1_OUT</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="new" >Output &lt;<arg fmt="%s" index="1">RXRECCLK2_OUT</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tied_to_vcc_vec_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tied_to_vcc_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">open_txbufstatus_unused_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">open_txbufstatus_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">open_rxbufstatus_unused_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">open_rxbufstatus_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">chbondo</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">chbondi</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">TXOUTCLK1_OUT_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tx_buf_err_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tied_to_vcc_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tied_to_ground_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tied_to_gnd_vec_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_realign_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_not_in_table_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_disp_err_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_data_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_clk_cor_cnt_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_char_is_k_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_char_is_comma_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_buf_err_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">open_rx_rec2_clk_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">open_rx_rec1_clk_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">open_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">channel_bond_load_i</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">ch_bond_done_r2</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">ch_bond_done_r1</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">ch_bond_done_i_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">TX1P_OUT_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">TX1N_OUT_unused</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">RX1P_IN_unused</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">RX1N_IN_unused</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">EN_in_ports_0_getNonFullVCs</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">EN_out_ports_2_getFlit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">EN_out_ports_1_getFlit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">EN_out_ports_0_getFlit</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">out_ports_1_putNonFullVCs_nonFullVCs&lt;1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">EN_in_ports_1_getNonFullVCs</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">out_ports_0_putNonFullVCs_nonFullVCs&lt;1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">EN_in_ports_2_getNonFullVCs</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">out_ports_2_putNonFullVCs_nonFullVCs&lt;1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_2_2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_2_1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_1_2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_1_1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_0_2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_0_1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">selectedIO_reg_0</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">lockedVL_2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">lockedVL_1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">lockedVL</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">inPortVL_2</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">inPortVL_1</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">inPortVL</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">IF_IF_outport_encoder_8_BIT_2_9_THEN_NOT_outpo_ETC___d354</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">IF_IF_outport_encoder_8_BIT_2_9_THEN_IF_outpor_ETC___d356</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">IF_IF_outport_encoder_8_BIT_2_9_THEN_IF_outpor_ETC___d355</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2117" delta="new" >HDL ADVISOR - Mux Selector &lt;<arg fmt="%s" index="1">active_in__h18004</arg>&gt; of Case statement line <arg fmt="%s" index="2">971</arg> was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+	- add an &apos;<arg fmt="%s" index="3">INIT</arg>&apos; attribute on signal &lt;<arg fmt="%s" index="4">active_in__h18004</arg>&gt; (optimization is then done without any risk)
+	- use the attribute &apos;<arg fmt="%s" index="5">signal_encoding</arg> <arg fmt="%s" index="6">user</arg>&apos; to avoid onehot optimization
+	- use the attribute &apos;<arg fmt="%s" index="7">safe_implementation</arg> <arg fmt="%s" index="8">yes</arg>&apos; to force XST to perform a safe (but less efficient) optimization
+</msg>
+
+<msg type="info" file="Xst" num="2117" delta="new" >HDL ADVISOR - Mux Selector &lt;<arg fmt="%s" index="1">active_in__h18705</arg>&gt; of Case statement line <arg fmt="%s" index="2">1007</arg> was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+	- add an &apos;<arg fmt="%s" index="3">INIT</arg>&apos; attribute on signal &lt;<arg fmt="%s" index="4">active_in__h18705</arg>&gt; (optimization is then done without any risk)
+	- use the attribute &apos;<arg fmt="%s" index="5">signal_encoding</arg> <arg fmt="%s" index="6">user</arg>&apos; to avoid onehot optimization
+	- use the attribute &apos;<arg fmt="%s" index="7">safe_implementation</arg> <arg fmt="%s" index="8">yes</arg>&apos; to force XST to perform a safe (but less efficient) optimization
+</msg>
+
+<msg type="warning" file="Xst" num="1306" delta="new" >Output &lt;<arg fmt="%s" index="1">recv_ports_info_1_getRecvPortID</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1306" delta="new" >Output &lt;<arg fmt="%s" index="1">recv_ports_info_2_getRecvPortID</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1306" delta="new" >Output &lt;<arg fmt="%s" index="1">recv_ports_info_0_getRecvPortID</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">tx_lock_out_i_4</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">tied_to_gnd_vec_i</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">send_ports_4_getNonFullVCs</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">send_ports_3_getNonFullVCs</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_src_rdy_n_i_4</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_src_rdy_n_i_3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_rem_i_4</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_rem_i_3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_eof_n_i_4</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">rx_eof_n_i_3</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">recv_ports_info_4_getRecvPortID</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">recv_ports_info_3_getRecvPortID</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">err_count_i</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">chbond_count_dec_i</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">aurora_lane_0_i</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="new" >Hierarchical block &lt;<arg fmt="%s" index="1">chbond_count_dec_i</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">aurora_lane_0_i</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ERR_COUNT_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">aurora_Network_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ERR_COUNT_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">aurora_Network_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ERR_COUNT_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">aurora_Network_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ERR_COUNT_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">aurora_Network_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ERR_COUNT_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">aurora_Network_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ERR_COUNT_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">aurora_Network_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ERR_COUNT_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">aurora_Network_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ERR_COUNT_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">aurora_Network_1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">ERR_COUNT</arg>&lt;<arg fmt="%d" index="2">0</arg>:<arg fmt="%d" index="3">-1</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_arr</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_arr</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_arr</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_arr</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">standard_cc_module_i/WARN_CC</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/GOT_A_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/GOT_A_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/RX_CC</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/RX_PAD</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/rx_cc_r_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/rx_cc_r_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/got_a_d_r_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/got_a_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_dec_i/rx_pad_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/GOT_A_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/GOT_A_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/RX_CC</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/RX_PAD</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/rx_cc_r_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/rx_cc_r_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/got_a_d_r_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/got_a_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_dec_i/rx_pad_d_r_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/rx_ll_i/rx_ll_pdu_datapath_i/RX_REM_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/rx_ll_i/rx_ll_pdu_datapath_i/pad_in_storage_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/rx_ll_i/rx_ll_pdu_datapath_i/RX_EOF_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/rx_ll_i/rx_ll_pdu_datapath_i/RX_SRC_RDY_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/rx_ll_i/rx_ll_pdu_datapath_i/RX_REM_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/rx_ll_i/rx_ll_pdu_datapath_i/pad_in_storage_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/rx_ll_i/rx_ll_pdu_datapath_i/RX_EOF_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/rx_ll_i/rx_ll_pdu_datapath_i/RX_SRC_RDY_N</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/flitBuffers_1/inputQueue_ifc_mf_ifc_not_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_size_cnt_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_empty</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/flitBuffers_2/inputQueue_ifc_mf_ifc_not_full</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_rt_ifc_banks_banks_rf_2/Mram_arr2</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_rt_ifc_banks_banks_rf_2/Mram_arr1</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_1_rt_ifc_banks_banks_rf_2/Mram_arr1</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_1_rt_ifc_banks_banks_rf_2/Mram_arr2</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_rt_ifc_banks_banks_rf_1/Mram_arr2</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_rt_ifc_banks_banks_rf_1/Mram_arr1</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_rt_ifc_banks_banks_rf/Mram_arr2</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_rt_ifc_banks_banks_rf/Mram_arr1</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_2_rt_ifc_banks_banks_rf_1/Mram_arr2</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_2_rt_ifc_banks_banks_rf_1/Mram_arr1</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_2_rt_ifc_banks_banks_rf_2/Mram_arr2</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_2_rt_ifc_banks_banks_rf_2/Mram_arr1</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_2_rt_ifc_banks_banks_rf/Mram_arr1</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_2_rt_ifc_banks_banks_rf/Mram_arr2</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_1_rt_ifc_banks_banks_rf_1/Mram_arr2</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_1_rt_ifc_banks_banks_rf_1/Mram_arr1</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">dut1/net_routers_routeTable_1_rt_ifc_banks_banks_rf/Mram_arr2</arg>&gt;, &lt;<arg fmt="%s" index="2">dut1/net_routers_routeTable_1_rt_ifc_banks_banks_rf/Mram_arr1</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_3/tx_ll_i/tx_ll_datapath_i/in_frame_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">aurora_module_i_4/tx_ll_i/tx_ll_datapath_i/in_frame_r</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">aurora_module_i_3/tx_ll_i/tx_ll_control_i/do_cc_r</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;aurora_module_i_4/tx_ll_i/tx_ll_control_i/do_cc_r&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">aurora_module_i_3/aurora_lane_0_i/sym_gen_i/gen_spa_data_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;aurora_module_i_3/aurora_lane_0_i/lane_init_sm_i/counter2_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">aurora_module_i_4/aurora_lane_0_i/sym_gen_i/gen_spa_data_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;aurora_module_i_4/aurora_lane_0_i/lane_init_sm_i/counter2_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_1_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_2/outPortFIFOs/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_2_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_7_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_4_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_6_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_2/outPortFIFO_ifc_fifo_mem_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_3_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">aurora_Network_1</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;dut1/net_routers_router_core_1/outPortFIFOs_1/outPortFIFO_ifc_fifo_mem_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="new" >HDL ADVISOR - A <arg fmt="%d" index="1">15</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">standard_cc_module_i/count_16d_srl_r_14</arg>&gt; and currently occupies <arg fmt="%d" index="3">15</arg> logic cells (<arg fmt="%d" index="4">7</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="741" delta="new" >HDL ADVISOR - A <arg fmt="%d" index="1">23</arg>-bit shift register was found for signal &lt;<arg fmt="%s" index="2">standard_cc_module_i/count_24d_srl_r_22</arg>&gt; and currently occupies <arg fmt="%d" index="3">23</arg> logic cells (<arg fmt="%d" index="4">11</arg> slices). Removing the set/reset logic would take advantage of SRL<arg fmt="%d" index="5">32</arg> (and derived) primitives and reduce this to 1 logic cells (1 slices). Evaluate if the set/reset can be removed for this simple shift register. The majority of simple pipeline structures do not need to be set/reset operationally.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

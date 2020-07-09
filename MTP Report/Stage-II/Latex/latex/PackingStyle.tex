@@ -1,0 +1,87 @@
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{epstopdf}
+\usepackage{setspace}
+\usepackage{varioref}
+%\usepackage[a4paper, vmargin={5cm,3cm}, hmargin={3cm,2cm}]{geometry}
+\usepackage{array}
+\usepackage{vmargin}
+\usepackage{tabto}
+\usepackage{mathtools}
+%\usepackage{subfig}
+\usepackage{subcaption}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{bookmark}
+\usepackage {hyperref}
+\usepackage{siunitx}
+\usepackage{dcolumn}  
+\usepackage{tabularx}
+%\usepackage{subfigure}
+\setpapersize{A4}
+\setmarginsrb{30mm}{15mm}{20mm}{22mm}{3mm}{12mm}{3mm}{10mm}
+
+
+\setlength{\parsep}{20pt}
+%\setlength{\textwidth}{160mm}
+%\setlength{\textheight}{245mm}
+%\usepackage[Lenny]{fncychap}
+\usepackage[Bjornstrup]{fncychap}
+%\usepackage[breaklinks]{hyperref}
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=black,
+    colorlinks=false,
+    linkbordercolor={1 0 0},
+    citebordercolor={0 1 0},
+    urlbordercolor={0 1 1}
+}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{\textit{Network-on-Chip (NoC) Partitioning and Implementation on Multi-FPGA System}}
+\lfoot{\textit{Dept. of EE}}
+\cfoot{\textit{ IIT Bombay}}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\author{Saurabh Agrawal}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Verilog,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}

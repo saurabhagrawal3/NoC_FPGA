@@ -1,0 +1,28 @@
+Command line:
+   myNetworkAurora_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  46711
+
+Wed Oct  1 14:37:34 2014
+
+
+ Elaboration Time: 4.39 sec
+
+ Current Memory Usage: 919.065 Meg
+
+ Total Signals          : 203506
+ Total Nets             : 147398
+ Total Signal Drivers   : 178863
+ Total Blocks           : 27326
+ Total Primitive Blocks : 18231
+ Total Processes        : 190884
+ Total Traceable Variables  : 15410
+ Total Scalar Nets and Variables : 421420
+
+ Total Simulation Time: 6.47 sec
+
+ Current Memory Usage: 1019.9 Meg
+
+Wed Oct  1 15:32:16 2014
+

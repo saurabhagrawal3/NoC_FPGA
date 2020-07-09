@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/root/Desktop/MTP/Testings/yatish_setup/CONNECT_testbench_sample_peek_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CONNECT_testbench_sample_peek" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/Clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/Rst_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Rst_n</obj_property>
+      <obj_property name="ObjectShortName">Rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/EN_send_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_send_port[0:3]</obj_property>
+      <obj_property name="ObjectShortName">EN_send_port[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">flit_in[0:3,20:0]</obj_property>
+      <obj_property name="ObjectShortName">flit_in[0:3,20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">flit_in[0:3,20:0]</obj_property>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[0,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[1,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[2,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_in[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_in[3,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">flit_out[0:3,20:0]</obj_property>
+      <obj_property name="ObjectShortName">flit_out[0:3,20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[0,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[1,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[2,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CONNECT_testbench_sample_peek/flit_out[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,20:0]</obj_property>
+         <obj_property name="ObjectShortName">flit_out[3,20:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/credit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">credit_in[0:3,1:0]</obj_property>
+      <obj_property name="ObjectShortName">credit_in[0:3,1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/credit_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">credit_out[0:3,1:0]</obj_property>
+      <obj_property name="ObjectShortName">credit_out[0:3,1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/EN_send_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_send_port[0:3]</obj_property>
+      <obj_property name="ObjectShortName">EN_send_port[0:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dest" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dest[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dest[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/is_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">is_valid</obj_property>
+      <obj_property name="ObjectShortName">is_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/is_tail" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">is_tail</obj_property>
+      <obj_property name="ObjectShortName">is_tail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/cycle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/j" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

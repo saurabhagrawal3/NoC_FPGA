@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{report}
+\include{PackingStyle}
+
+%--------------------------------------------------------------------------
+\begin{document}
+\pagenumbering{roman}  
+\include{FirstPage}
+
+\normalsize 
+\include{Declaration}
+\include{approval}
+\include{Acknowledgement}   
+\include{Abstract}   
+\tableofcontents 
+\listoffigures
+\listoftables
+
+% chapter 1
+\include{Chapter_1_Introduction}
+
+% chapter 2
+\include{Chapter_2_NoC} 
+
+% chapter 3
+\include{Chapter_3_NoC_Partition}  
+
+% chapter 4
+\include{Chapter_4_Aurora}   
+
+% chapter 5
+\include{Chapter_5_PhysicalLink}   
+
+% chapter 6
+\include{Chapter_6_LDPC}
+
+% chapter 7
+\include{Chapter_7_LDPC_Implementation}
+
+% chapter 8
+\include{Chapter_8_RPi_Nano}
+
+% chapter 9
+\include{Chapter_9_last}
+
+%Appendix
+\include{appendix}
+
+% Bibiliography and References
+\bibliographystyle{ieeetran}
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{bibliography}
+
+\end{document}

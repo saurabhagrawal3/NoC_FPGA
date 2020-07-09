@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/root/Desktop/MTP/UARTTest/Custom_TB_isim_beh.exe" -prj "/root/Desktop/MTP/UARTTest/Custom_TB_beh.prj" "work.Custom_TB" "work.glbl" 

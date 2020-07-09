@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="yatish_setup" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/mkNetworkSimple_0 |root|Desktop|MTP|Testings|yatish_setup|mkNetworkSimple_0.v</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_0 |root|Desktop|MTP|Testings|yatish_setup|mkNetworkSimple_0.v/net_routers_router_core_0 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_0 |root|Desktop|MTP|Testings|yatish_setup|mkNetworkSimple_0.v/net_routers_router_core_1 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_0 |root|Desktop|MTP|Testings|yatish_setup|mkNetworkSimple_0.v/net_routers_router_core_1 - mkIQRouterCoreSimple/routerAlloc - mkSepRouterAllocator</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_0 |root|Desktop|MTP|Testings|yatish_setup|mkNetworkSimple_0.v/net_routers_router_core_2 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_1 |root|Desktop|MTP|Testings|yatish_setup|mkNetworkSimple_1.v</ClosedNode>
+         <ClosedNode>/mkRouterCoreSimple |root|Desktop|MTP|Testings|yatish_setup|mkRouterCoreSimple.v/routerAlloc - mkSepRouterAllocator</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|myNetworkAurora.v/myNetwork_1_routers - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple/flitBuffers - mkInputQueue</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|myNetworkAurora.v/myNetwork_1_routers - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple/flitBuffers_1 - mkInputQueue</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|myNetworkAurora.v/myNetwork_1_routers - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple/flitBuffers_2 - mkInputQueue</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|myNetworkAurora.v/myNetwork_1_routers - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple/flitBuffers_3 - mkInputQueue</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|myNetworkAurora.v/myNetwork_1_routers - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple/flitBuffers_4 - mkInputQueue</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|myNetworkAurora.v/myNetwork_1_routers - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple/routerAlloc - mkSepRouterAllocator</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|myNetworkAurora.v/myNetwork_3_routers - mkNetworkSimple_0</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|yatish_setup|myNetworkAurora.v/myNetwork_1_routers - mkNetworkSimple_1</ClosedNode>
+         <ClosedNode>/myNetworkAurora |root|Desktop|MTP|Testings|yatish_setup|myNetworkAurora.v/myNetwork_3_routers - mkNetworkSimple_0</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>flitBuffers_3 - mkInputQueue (/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkInputQueue.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002a5000000020000000000000000000000000200000064ffffffff000000810000000300000002000002a50000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>flitBuffers_3 - mkInputQueue (/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/mkInputQueue.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000019e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000075c000000040101000100000000000000000000000064ffffffff0000008100000000000000040000005100000001000000000000002900000001000000000000008400000001000000000000065e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>baud_gen.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000125000000010001000100000000000000000000000064ffffffff000000810000000000000001000001250000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000226000000010000000100000000000000000000000064ffffffff000000810000000000000001000002260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Automatic `includes</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|testbench_sample_peek.v/dut - myNetworkAurora</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|testbench_sample_peek.v/dut - myNetworkAurora/myNetwork_1_routers - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|Testings|yatish_connect_setup|testbench_sample_peek.v/dut - myNetworkAurora/myNetwork_3_routers - mkNetworkSimple_0</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|yatish_setup|testbench_sample_peek.v/dut - myNetworkAurora/myNetwork_1_routers - mkNetworkSimple_1</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|yatish_setup|testbench_sample_peek.v/dut - myNetworkAurora/myNetwork_1_routers - mkNetworkSimple_1/net_routers_router_core_3 - mkIQRouterCoreSimple</ClosedNode>
+         <ClosedNode>/CONNECT_testbench_sample_peek |root|Desktop|MTP|Testings|yatish_setup|testbench_sample_peek.v/dut - myNetworkAurora/myNetwork_3_routers - mkNetworkSimple_0</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_0 |root|Desktop|MTP|Testings|yatish_setup|mkNetworkSimple_0.v</ClosedNode>
+         <ClosedNode>/mkNetworkSimple_1 |root|Desktop|MTP|Testings|yatish_setup|mkNetworkSimple_1.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>CONNECT_testbench_sample_peek (/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/testbench_sample_peek.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e1000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e10000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>CONNECT_testbench_sample_peek (/root/Desktop/MTP/Testings/Testings/yatish_connect_setup/testbench_sample_peek.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000019e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000019e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000226000000010000000100000000000000000000000064ffffffff000000810000000000000001000002260000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000026f0000007a01000000060100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

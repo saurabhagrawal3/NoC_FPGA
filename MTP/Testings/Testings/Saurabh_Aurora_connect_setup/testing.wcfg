@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/root/Desktop/MTP/Testings/Aurora_connect_setup/CONNECT_testbench_sample_peek_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CONNECT_testbench_sample_peek" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/send_ports_0_putFlit_flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_ports_0_putFlit_flit_in[20:0]</obj_property>
+      <obj_property name="ObjectShortName">send_ports_0_putFlit_flit_in[20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/EN_send_ports_0_putFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_send_ports_0_putFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_send_ports_0_putFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/EN_send_ports_0_getNonFullVCs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_send_ports_0_getNonFullVCs</obj_property>
+      <obj_property name="ObjectShortName">EN_send_ports_0_getNonFullVCs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/send_ports_0_getNonFullVCs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_ports_0_getNonFullVCs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">send_ports_0_getNonFullVCs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/EN_recv_ports_1_getFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_recv_ports_1_getFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_recv_ports_1_getFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/recv_ports_1_getFlit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">recv_ports_1_getFlit[20:0]</obj_property>
+      <obj_property name="ObjectShortName">recv_ports_1_getFlit[20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/recv_ports_1_putNonFullVCs_nonFullVCs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">recv_ports_1_putNonFullVCs_nonFullVCs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">recv_ports_1_putNonFullVCs_nonFullVCs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/EN_recv_ports_1_putNonFullVCs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_recv_ports_1_putNonFullVCs</obj_property>
+      <obj_property name="ObjectShortName">EN_recv_ports_1_putNonFullVCs</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider63" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/EN_send_ports_0_putFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_send_ports_0_putFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_send_ports_0_putFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/EN_send_ports_0_getNonFullVCs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_send_ports_0_getNonFullVCs</obj_property>
+      <obj_property name="ObjectShortName">EN_send_ports_0_getNonFullVCs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/send_ports_0_putFlit_flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_ports_0_putFlit_flit_in[20:0]</obj_property>
+      <obj_property name="ObjectShortName">send_ports_0_putFlit_flit_in[20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/send_ports_0_getNonFullVCs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">send_ports_0_getNonFullVCs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">send_ports_0_getNonFullVCs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/recv_ports_1_getFlit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">recv_ports_1_getFlit[20:0]</obj_property>
+      <obj_property name="ObjectShortName">recv_ports_1_getFlit[20:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/recv_ports_1_putNonFullVCs_nonFullVCs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">recv_ports_1_putNonFullVCs_nonFullVCs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">recv_ports_1_putNonFullVCs_nonFullVCs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_0/EN_in_ports_0_putRoutedFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_in_ports_0_putRoutedFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_in_ports_0_putRoutedFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_0/EN_in_ports_0_getNonFullVCs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_in_ports_0_getNonFullVCs</obj_property>
+      <obj_property name="ObjectShortName">EN_in_ports_0_getNonFullVCs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_0/in_ports_0_putRoutedFlit_flit_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_ports_0_putRoutedFlit_flit_in[23:0]</obj_property>
+      <obj_property name="ObjectShortName">in_ports_0_putRoutedFlit_flit_in[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/EN_out_ports_0_getFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_out_ports_0_getFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_out_ports_0_getFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/EN_out_ports_1_getFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_out_ports_1_getFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_out_ports_1_getFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/EN_out_ports_2_getFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_out_ports_2_getFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_out_ports_2_getFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/EN_out_ports_3_getFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_out_ports_3_getFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_out_ports_3_getFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/EN_out_ports_4_getFlit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EN_out_ports_4_getFlit</obj_property>
+      <obj_property name="ObjectShortName">EN_out_ports_4_getFlit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/out_ports_0_getFlit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_ports_0_getFlit[20:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ports_0_getFlit[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/out_ports_1_getFlit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_ports_1_getFlit[20:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ports_1_getFlit[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/out_ports_2_getFlit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_ports_2_getFlit[20:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ports_2_getFlit[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/out_ports_3_getFlit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_ports_3_getFlit[20:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ports_3_getFlit[20:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CONNECT_testbench_sample_peek/dut/myNetworkSimple_0/network_router_3/net_routers_router_core_1/out_ports_4_getFlit" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_ports_4_getFlit[20:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ports_4_getFlit[20:0]</obj_property>
+   </wvobject>
+</wave_config>

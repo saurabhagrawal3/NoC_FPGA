@@ -1,0 +1,347 @@
+--------------------------------------------------------------------------------
+Release 14.1 Trace  (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.1/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 1 -n
+3 -fastpaths -xml mkNetworkSimple_0.twx mkNetworkSimple_0.ncd -o
+mkNetworkSimple_0.twr mkNetworkSimple_0.pcf
+
+Design file:              mkNetworkSimple_0.ncd
+Physical constraint file: mkNetworkSimple_0.pcf
+Device,package,speed:     xc5vlx110t,ff1136,-1 (PRODUCTION 1.73 2012-04-23, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLK
+----------------------------------------+------------+------------+------------------+--------+
+                                        |Max Setup to|Max Hold to |                  | Clock  |
+Source                                  | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+----------------------------------------+------------+------------+------------------+--------+
+EN_recv_ports_0_putNonFullVCs           |    6.188(R)|    0.002(R)|CLK_BUFGP         |   0.000|
+EN_recv_ports_1_putNonFullVCs           |    6.744(R)|    0.166(R)|CLK_BUFGP         |   0.000|
+EN_recv_ports_2_putNonFullVCs           |    7.311(R)|   -0.875(R)|CLK_BUFGP         |   0.000|
+EN_send_ports_0_putFlit                 |    1.708(R)|    2.284(R)|CLK_BUFGP         |   0.000|
+EN_send_ports_1_putFlit                 |    3.029(R)|    1.112(R)|CLK_BUFGP         |   0.000|
+EN_send_ports_2_putFlit                 |    2.755(R)|    1.709(R)|CLK_BUFGP         |   0.000|
+RST_N                                   |    3.464(R)|    1.704(R)|CLK_BUFGP         |   0.000|
+out_ports_1_4_getNonFullVCs             |    5.174(R)|    0.668(R)|CLK_BUFGP         |   0.000|
+out_ports_2_3_getNonFullVCs             |    5.993(R)|    0.570(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|    6.073(R)|    0.142(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|    7.080(R)|   -0.482(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|    6.828(R)|   -0.431(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<0>         |   -0.101(R)|    2.495(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<1>         |   -0.155(R)|    2.506(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<2>         |    0.045(R)|    2.356(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<3>         |   -0.328(R)|    2.671(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<4>         |   -0.075(R)|    2.482(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<5>         |   -0.325(R)|    2.674(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<6>         |   -0.079(R)|    2.483(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<7>         |   -0.462(R)|    2.809(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<8>         |   -0.019(R)|    2.437(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<9>         |   -0.168(R)|    2.538(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<10>        |   -0.083(R)|    2.505(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<11>        |   -0.313(R)|    2.679(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<12>        |    0.010(R)|    2.389(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<13>        |   -0.152(R)|    2.512(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<14>        |    0.065(R)|    2.347(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<15>        |   -0.035(R)|    2.407(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<16>        |    0.149(R)|    2.282(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<17>        |    1.830(R)|    2.495(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<18>        |    1.880(R)|    2.249(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<19>        |    0.762(R)|    2.246(R)|CLK_BUFGP         |   0.000|
+send_ports_0_putFlit_flit_in<20>        |    2.406(R)|    1.483(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<0>         |    0.175(R)|    2.257(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<1>         |    0.035(R)|    2.351(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<2>         |    0.120(R)|    2.308(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<3>         |    0.044(R)|    2.343(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<4>         |   -0.075(R)|    2.497(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<5>         |   -0.072(R)|    2.455(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<6>         |   -0.099(R)|    2.512(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<7>         |   -0.402(R)|    2.759(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<8>         |    0.279(R)|    2.164(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<9>         |   -0.235(R)|    2.609(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<10>        |    0.390(R)|    2.072(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<11>        |    0.469(R)|    1.962(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<12>        |    0.062(R)|    2.333(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<13>        |   -0.162(R)|    2.505(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<14>        |    0.077(R)|    2.321(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<15>        |   -0.015(R)|    2.372(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<16>        |    0.080(R)|    2.331(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<17>        |    2.579(R)|    1.958(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<18>        |    2.628(R)|    1.789(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<19>        |    1.066(R)|    1.944(R)|CLK_BUFGP         |   0.000|
+send_ports_1_putFlit_flit_in<20>        |    2.427(R)|    1.436(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<0>         |   -0.156(R)|    2.569(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<1>         |   -0.450(R)|    2.807(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<2>         |   -0.011(R)|    2.438(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<3>         |   -0.285(R)|    2.658(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<4>         |   -0.106(R)|    2.537(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<5>         |   -0.313(R)|    2.690(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<6>         |    0.113(R)|    2.312(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<7>         |   -0.065(R)|    2.443(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<8>         |    0.037(R)|    2.383(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<9>         |    0.025(R)|    2.362(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<10>        |   -0.118(R)|    2.537(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<11>        |   -0.031(R)|    2.418(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<12>        |    0.082(R)|    2.328(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<13>        |   -0.037(R)|    2.405(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<14>        |    0.199(R)|    2.220(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<15>        |   -0.017(R)|    2.387(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<16>        |    0.232(R)|    2.202(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<17>        |    3.133(R)|    1.595(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<18>        |    2.244(R)|    2.662(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<19>        |    0.323(R)|    2.680(R)|CLK_BUFGP         |   0.000|
+send_ports_2_putFlit_flit_in<20>        |    2.417(R)|    1.483(R)|CLK_BUFGP         |   0.000|
+ser_in_1_2                              |   -0.309(R)|    2.420(R)|CLK_BUFGP         |   0.000|
+ser_in_2_1                              |   -0.505(R)|    2.574(R)|CLK_BUFGP         |   0.000|
+----------------------------------------+------------+------------+------------------+--------+
+
+Clock CLK to Pad
+-----------------------------+------------+------------------+--------+
+                             | clk (edge) |                  | Clock  |
+Destination                  |   to PAD   |Internal Clock(s) | Phase  |
+-----------------------------+------------+------------------+--------+
+in_ports_1_2_getNonFullVCs   |    8.726(R)|CLK_BUFGP         |   0.000|
+in_ports_2_1_getNonFullVCs   |    8.989(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<0>      |   13.817(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<1>      |   14.358(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<2>      |   14.162(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<3>      |   14.025(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<4>      |   14.065(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<5>      |   13.833(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<6>      |   14.720(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<7>      |   14.208(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<8>      |   14.368(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<9>      |   14.060(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<10>     |   15.431(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<11>     |   14.512(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<12>     |   14.015(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<13>     |   13.913(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<14>     |   13.725(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<15>     |   13.638(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<16>     |   13.725(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<17>     |   13.776(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<18>     |   14.206(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<19>     |   13.898(R)|CLK_BUFGP         |   0.000|
+recv_ports_0_getFlit<20>     |   14.321(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<0>      |   15.012(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<1>      |   15.192(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<2>      |   15.204(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<3>      |   15.182(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<4>      |   15.087(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<5>      |   15.140(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<6>      |   14.466(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<7>      |   14.691(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<8>      |   14.704(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<9>      |   14.887(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<10>     |   14.527(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<11>     |   14.408(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<12>     |   14.933(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<13>     |   15.038(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<14>     |   14.486(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<15>     |   14.525(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<16>     |   14.745(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<17>     |   14.732(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<18>     |   14.510(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<19>     |   14.404(R)|CLK_BUFGP         |   0.000|
+recv_ports_1_getFlit<20>     |   15.201(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<0>      |   15.068(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<1>      |   15.223(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<2>      |   15.067(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<3>      |   16.034(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<4>      |   15.210(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<5>      |   15.132(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<6>      |   15.029(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<7>      |   14.942(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<8>      |   15.082(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<9>      |   15.240(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<10>     |   15.077(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<11>     |   15.939(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<12>     |   14.278(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<13>     |   14.345(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<14>     |   14.005(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<15>     |   13.520(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<16>     |   14.522(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<17>     |   14.398(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<18>     |   14.531(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<19>     |   13.533(R)|CLK_BUFGP         |   0.000|
+recv_ports_2_getFlit<20>     |   15.257(R)|CLK_BUFGP         |   0.000|
+send_ports_0_getNonFullVCs<0>|    9.514(R)|CLK_BUFGP         |   0.000|
+send_ports_1_getNonFullVCs<0>|    9.653(R)|CLK_BUFGP         |   0.000|
+send_ports_2_getNonFullVCs<0>|    9.031(R)|CLK_BUFGP         |   0.000|
+ser_out_1_4                  |    8.875(R)|CLK_BUFGP         |   0.000|
+ser_out_2_3                  |    9.144(R)|CLK_BUFGP         |   0.000|
+-----------------------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    8.499|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+----------------------------------------+------------------------+---------+
+Source Pad                              |Destination Pad         |  Delay  |
+----------------------------------------+------------------------+---------+
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<0> |   10.186|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<1> |   10.793|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<2> |   10.597|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<3> |   10.460|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<4> |   10.500|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<5> |   10.268|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<6> |   11.167|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<7> |   10.655|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<8> |   10.815|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<9> |   10.507|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<10>|   11.878|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<11>|   10.959|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<12>|   10.465|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<13>|   10.297|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<14>|   10.175|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<15>|   10.088|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<16>|   10.175|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<17>|   10.160|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<18>|   10.656|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<19>|   10.348|
+EN_recv_ports_0_putNonFullVCs           |recv_ports_0_getFlit<20>|   10.771|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<0> |   11.428|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<1> |   11.557|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<2> |   11.620|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<3> |   11.341|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<4> |   11.417|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<5> |   11.556|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<6> |   10.779|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<7> |   11.113|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<8> |   11.087|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<9> |   11.269|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<10>|   10.949|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<11>|   10.830|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<12>|   11.358|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<13>|   11.463|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<14>|   10.675|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<15>|   10.950|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<16>|   11.170|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<17>|   11.157|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<18>|   10.901|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<19>|   10.829|
+EN_recv_ports_1_putNonFullVCs           |recv_ports_1_getFlit<20>|   11.445|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<0> |   12.661|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<1> |   12.616|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<2> |   12.460|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<3> |   13.427|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<4> |   12.892|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<5> |   12.874|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<6> |   12.422|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<7> |   12.335|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<8> |   12.475|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<9> |   12.633|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<10>|   12.470|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<11>|   13.332|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<12>|   11.671|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<13>|   12.127|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<14>|   11.398|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<15>|   11.137|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<16>|   11.915|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<17>|   11.791|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<18>|   11.924|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<19>|   11.035|
+EN_recv_ports_2_putNonFullVCs           |recv_ports_2_getFlit<20>|   12.650|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<0> |   10.176|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<1> |   10.656|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<2> |   10.460|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<3> |   10.323|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<4> |   10.363|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<5> |   10.131|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<6> |   11.030|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<7> |   10.518|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<8> |   10.678|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<9> |   10.370|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<10>|   11.741|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<11>|   10.822|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<12>|   10.328|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<13>|   10.287|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<14>|   10.038|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<15>|    9.951|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<16>|   10.038|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<17>|   10.150|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<18>|   10.519|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<19>|   10.211|
+recv_ports_0_putNonFullVCs_nonFullVCs<0>|recv_ports_0_getFlit<20>|   10.634|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<0> |   12.002|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<1> |   12.456|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<2> |   11.956|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<3> |   12.446|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<4> |   12.351|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<5> |   12.074|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<6> |   11.736|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<7> |   11.449|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<8> |   11.974|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<9> |   12.157|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<10>|   11.520|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<11>|   11.399|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<12>|   11.919|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<13>|   11.799|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<14>|   11.759|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<15>|   11.286|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<16>|   11.838|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<17>|   11.493|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<18>|   11.783|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<19>|   11.392|
+recv_ports_1_putNonFullVCs_nonFullVCs<0>|recv_ports_1_getFlit<20>|   11.869|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<0> |   12.178|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<1> |   12.133|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<2> |   11.977|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<3> |   12.944|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<4> |   12.409|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<5> |   12.391|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<6> |   11.939|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<7> |   11.852|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<8> |   11.992|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<9> |   12.150|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<10>|   11.987|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<11>|   12.849|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<12>|   11.188|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<13>|   11.644|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<14>|   10.915|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<15>|   10.654|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<16>|   11.432|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<17>|   11.308|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<18>|   11.441|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<19>|   10.552|
+recv_ports_2_putNonFullVCs_nonFullVCs<0>|recv_ports_2_getFlit<20>|   12.167|
+----------------------------------------+------------------------+---------+
+
+
+Analysis completed Wed Sep 24 23:35:56 2014 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 615 MB
+
+
+

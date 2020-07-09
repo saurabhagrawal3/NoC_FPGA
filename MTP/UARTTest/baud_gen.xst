@@ -1,0 +1,5 @@
+set -tmpdir "/root/Desktop/MTP/UARTTest/xst/projnav.tmp"
+set -xsthdpdir "/root/Desktop/MTP/UARTTest/xst"
+elaborate
+-ifn baud_gen.prj
+-ifmt mixed

@@ -1,0 +1,36 @@
+ISim log file
+Running: /root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /root/Desktop/MTP/CustomNetwork Emulated/Implementation/Custom_TB_isim_beh.wdb 
+ISim P.15xf (signature 0x8ddf5b5d)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+@1: Sending flit 001 into send port 0 from Router = 1 to Router = 3
+@0: Receiving flit 001 at receive port of router = 3
+@1: Sending flit 002 into send port 0 from Router = 1 to Router = 3
+@0: Receiving flit 002 at receive port of router = 3
+@1: Sending flit 003 into send port 0 from Router = 1 to Router = 3
+# run 1.00us
+@0: Receiving flit 003 at receive port of router = 3
+@1: Sending flit 004 into send port 0 from Router = 1 to Router = 3
+@0: Receiving flit 004 at receive port of router = 3
+@1: Sending flit 005 into send port 0 from Router = 1 to Router = 3
+@0: Receiving flit 005 at receive port of router = 3
+@1: Sending flit 006 into send port 0 from Router = 1 to Router = 3
+@0: Receiving flit 006 at receive port of router = 3
+@1: Sending flit 007 into send port 0 from Router = 1 to Router = 3
+@0: Receiving flit 007 at receive port of router = 3
+@1: Sending flit 008 into send port 0 from Router = 1 to Router = 3
+# exit 0

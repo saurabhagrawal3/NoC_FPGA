@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/root/Desktop/MTP/Testings/yatish_connect_setup/mult_top_isim_beh.exe" -prj "/root/Desktop/MTP/Testings/yatish_connect_setup/mult_top_beh.prj" "work.mult_top" "work.glbl" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/root/Desktop/MTP/CustomNetwork/Implementation/aurora_Network_1.xst" -ofn "/root/Desktop/MTP/CustomNetwork/Implementation/aurora_Network_1.syr" 

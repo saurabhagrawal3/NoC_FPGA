@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.xst" -ofn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.xst" -ofn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.xst" -ofn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.xst" -ofn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.xst" -ofn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.xst" -ofn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.xst" -ofn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.syr" 
+xst -intstyle ise -ifn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.xst" -ofn "/root/Desktop/MTP/Testings/yatish_setup/mkNetworkSimple_0.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc5vlx110t-ff1136-1 mkNetworkSimple_0.ngc mkNetworkSimple_0.ngd  
+map -intstyle ise -p xc5vlx110t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o mkNetworkSimple_0_map.ncd mkNetworkSimple_0.ngd mkNetworkSimple_0.pcf 
+par -w -intstyle ise -ol high -mt off mkNetworkSimple_0_map.ncd mkNetworkSimple_0.ncd mkNetworkSimple_0.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml mkNetworkSimple_0.twx mkNetworkSimple_0.ncd -o mkNetworkSimple_0.twr mkNetworkSimple_0.pcf 
+bitgen -intstyle ise -f mkNetworkSimple_0.ut mkNetworkSimple_0.ncd 

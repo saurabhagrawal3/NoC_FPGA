@@ -1,0 +1,80 @@
+\documentclass[]{beamer}
+% Class options include: notes, notesonly, handout, trans,
+%                        hidesubsections, shadesubsections,
+%                        inrow, blue, red, grey, brown
+
+% Theme for beamer presentation.
+\usepackage{tabularx}
+\usepackage{beamerthemesplit} 
+% Other themes include: beamerthemebars, beamerthemelined, 
+%                       beamerthemetree, beamerthemetreebars  
+
+%\usepackage{beamerthemebars}
+
+\title{LDPC Decoder Implementation using NoC}    % Enter your title between curly braces
+\author{Shaishav Yogeshkumar Shah (133070050)}                 % Enter your name between curly braces
+\institute{Supervisor: Prof. Sachin B. Patkar,\\
+PhD Guide: Pinalkumar Engineer.\\
+Dept. of EE,\\
+IIT Bombay}      % Enter your institute name between curly braces
+\date{\today}                    % Enter the date or \today between curly braces
+
+\begin{document}
+
+% Creates title page of slide show using above information
+\begin{frame}
+  \titlepage
+\end{frame}
+\note{Talk for 30 minutes} % Add notes to yourself that will be displayed when
+                           % typeset with the notes or notesonly class options
+
+
+\begin{frame}
+  \frametitle{Acknowledgement}
+  \begin{center}
+  \begin{itemize}
+    \item  \textbf{Prof. Sachin B. Patkar Sir} for giving me opportunity to present this idea and
+      his consistent suggestion.
+    \item  \textbf{Pinal J. Engineer}, PhD student for his good attention, idea suggestion, feasibility 
+    and troubleshooting..
+    
+    
+  \end{itemize}
+   
+  \end{center}
+
+  
+  \end{frame}
+\section[Outline]{}
+
+% Creates table of contents slide incorporating
+% all \section and \subsection commands
+\begin{frame}
+  \tableofcontents [hideallsubsections]
+\end{frame}
+
+%%%%%%%%% LDPC Introduction
+
+\include {ldpc_intro}
+
+
+
+%%%%%%%% NoC Introduction
+\include {noc_intro}
+
+
+%%%%%%%% LDPC 7x7 Implementation
+\include {ldpc_7x7_noc}
+
+
+
+
+%%%%%%%% LDPC 73x73 Implementation
+\include {ldpc_73x73_noc}
+
+
+%%%%%%%%%%%%%5 Conclusion and References
+\include {conclusion}
+	     % typeset with the notes or notesonly class options
+
+\end{document}

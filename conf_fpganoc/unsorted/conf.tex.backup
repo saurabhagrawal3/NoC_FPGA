@@ -1,0 +1,84 @@
+\documentclass[conference, 9pt]{IEEEtran}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage[font=footnotesize]{subfig}
+% \usepackage{eqnarray}
+\usepackage{algpseudocode}
+\usepackage{varwidth}
+\usepackage{paralist}
+\usepackage{graphicx}
+\usepackage{multirow}
+\graphicspath{{figures/}}
+
+% \renewcommand{\algorithmiccomment}[1]{\hfill\eqparbox{COMMENT}{\# #1}}
+
+\usepackage{url}
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\usepackage{varwidth}
+\usepackage{paralist}
+
+% \setlength{\parskip}{1pt}
+\setlength{\tabskip}{0em}
+% \setlength{\parindent}{1em}
+\newcommand{\startcompact}[1]{\par\vspace{-0.75em}\begin{#1}%
+\allowdisplaybreaks\ignorespaces}
+\newcommand{\stopcompact}[1]{\end{#1}\ignorespaces}
+
+\definecolor{gray20}{gray}{0.20}
+
+\newcommand{\gray}[1]{\color{gray20}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+\newcommand{\dgreen}[1]{\textcolor{green}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+
+\begin{document} 
+
+\title{NoC-based Multi-FPGA Application Mapping: 
+% \title{Boolean Matrix Vector Multiplication: A Case-study in NoC-based Multi-FPGA Application Mapping}
+\maketitle 
+
+\begin{abstract}
+
+\end{abstract}
+
+%%%%ACM style
+% % A category with the (minimum) three required fields
+% \category{B.5}{Register-Transfer-Level Implementation}{Design---Data-path and memory design; Design Aids---Automatic synthesis}
+% %A category including the fourth, optional field follows...
+% % \category{D.2.8}{Software Engineering}{Metrics}[complexity measures, performance measures]
+% 
+% \terms{High Level Synthesis, Domain/Application Specific Design}
+% 
+% \keywords{HLS, Storage allocation, Queue, QRSWM, SRSWM, Domain-specific synthesis, Signal-processing and matrix computations, ILP, Greedy algorithms, microcode control, HLS-assisted design semi-automatic design, C-to-Verilog, LLVM} % NOT required for Proceedings
+% 
+% \section{Introduction}
+% Algorithm-to-hardware high-level synthesis (HLS) ideas have been around long and along the way the objectives and expectations have also evolved. 
+
+% \IEEEpeerreviewmaketitle
+
+\section{Introduction}
+\gray{abc\cite{dally2001route}}
+\subsection{FSP focus}
+High-level compilation and languages, design automation tools that 
+raise the abstraction level when designing for (heterogeneous) FPGAs and 
+reconfigurable systems and standardized target platforms. Underline the 
+potential of domain-specific computing and software-driven FPGA development.
+Mapping approaches and tools for heterogeneous FPGAs. HLS. 
+Design automation technologies for multi-FPGA and heterogeneous systems.
+Overlays: Would CONNECT counts as one? Applications.
+
+
+\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+\bibliography{IEEEabrv,ref}
+
+% that's all folks
+\end{document}
+
+
